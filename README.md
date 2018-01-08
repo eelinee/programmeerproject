@@ -3,8 +3,12 @@
 **This document contains the proposal for my Porgrammeerproject.**
 
 Name: Eline Rietdijk
+
 Studentnumber: 10811834
+
 Course: Programming Project (dataprocessing)
+
+Goal of this project: creating awareness of the importance of hygiene for health.
 
 ## Problem statement
 There is an enourmous difference in life expectancy between developing countries and other countries, like the Netherlands. 
