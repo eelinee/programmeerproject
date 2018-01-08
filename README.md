@@ -35,8 +35,26 @@ To understand where the big differences in life expectancy and disease incidence
 
 ## Prerequisites
 
-**Data sources:**
+**Data sources**
 - Hygiene data: http://apps.who.int/gho/data/node.main.WATERSANITATION166?lang=en
 - Communicable and noncommunicable diseases: http://apps.who.int/gho/data/node.home
 
-Some of the data about diseases will have to be transformed, because 
+Some of the data about diseases will have to be transformed, because disease incidence is given per 100 000 population, per 10 000 population or in percentages of the population. 
+
+**External components**
+d3-tip library
+bootstrap library
+topojson library
+
+**Related visualisations**
+A related visualisation can be found on the WHO website:
+https://vizhub.healthdata.org/health-map/nigeria
+
+This map shows health components in Nigeria.
+
+**Hardest parts**
+One of the hardest parts will start with transforming the data, since some data is given in percentages of the population and other data is given in cases per number of population.  
+
+Furthermore, I suspect that it will be hard to keep all these visualisations structured because I want to show a lot of things.
+
+
