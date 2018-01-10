@@ -23,7 +23,7 @@ To increase life expactancy and health in developing countries, it is important 
 To understand where the big differences in life expectancy and disease incidence come from, I will create a website containing 3 or 4 interacting visualisations showing components that (may) influence health:
 - (MVP) Wold Map: each country is displayed in a color corresponding to the life expectancy (darker color = higher life expectancy). Upon clicking one of the countries, a line graph and a barchart will appear (see following points).
 - (MVP) Hygiene line graph: in this graph, 4 different variables are plotted over the years 2000-2016 for the clicked country: % of population that has access to drinking water facilities, % of population that has access to sanitation facilities, % of population that washes hands with soap, % of population that practices open defecation. 
-- (MVP) Diseases bar chart: in this chart, the incidence of different diseases are shown for the clicked country. Alongside the different diseases, there will be a distinction made between communicable and noncommunicable diseases. The reason for this is that hygiene may only affect communicable diseases. 
+- (MVP) Diseases sunburst: in this chart, the incidence of different diseases are shown for the clicked country. Alongside the different diseases, there will be a distinction made between communicable and noncommunicable diseases. The reason for this is that hygiene may only affect communicable diseases. 
 - (OPTIONAL) scatterplot: in this scatterplot, each point will correspond data from one country. The first variable is the NBP (reflecting a country's whealth) and the second variable is one of the hygiene variables that are used in the linegraph. 
 
 **Interactions**
@@ -32,7 +32,7 @@ To understand where the big differences in life expectancy and disease incidence
 - There will be a time switch to scroll through the years. Upon scrolling though the years, a small indicator will move over each line in the line graph, showing the current year. Also, the barchart, world map and scatterplot will be updated for the current year. 
 - Hovering: in each visualisation, a hover interactivity will be implemented so that hovering over a datapoint (line, dot, bar or country) shows the exact data values.
 - a dropdown menu will be available for the world map. A user can choose whether the colors on the map represent life expectancy or incidence of one of the documented diseases. 
-- (OPTIONAL) another dropdown menu will be available for the scatterplot. A user can choose whether the second variable will be access to drinking water, acces to sanitation services, handwashing with soap or open defecation.
+- (OPTIONAL) a dropdown menu will be available so that the user can choose between seeing the data of one country in two visualisations (sunburst and linegraph) or comparing data of all countries in the scatterplot. With clickboxes, a user can choose which value should be displayed on the x-axis (for example death rates of a certain disease or of a disease group) and which value should be displayed on the y-axis (for example % of population that practices open defecation or average BMI). Each dot in the scatterplot will represent a different country. And more optional, upon clicking one of the dots, the data of the corresponding country will be shown using the line graph and the sunburst again. 
 
 **Scetch**
 

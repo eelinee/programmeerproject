@@ -6,10 +6,34 @@
 
 For this project, I have found different data tables. Using these tables, I will create the data lists that I need. The tables I have found contain data per country and are the following:
 
+General data:
 - Life expectancy at birth 
 - Life expectancy at age 60 (years)
 - Total deaths all causes (in numbers)
 - Population number
+
+Disease by collective name:
+- No. of deaths - Certain infectious and parasitic diseases
+- No. of deaths - Neoplasms
+- No. of deaths - Diseases of blood and disorders of immune mechanism
+- No. of deaths - Endocrine, nurtitional and metabolic diseases
+- No. of deaths - Mental and behavioural disorders
+- No. of deaths - Diseases of the nervous system
+- No. of deaths - Diseases of the eye and adnexa
+- No. of deaths - Diseases of the ear and mastoid process
+- No. of deaths - Diseases of the circulatory system
+- No. of deaths - Diseases of the resiratory system
+- No. of deaths - Diseases of the digestive system
+- No. of deaths - Diseases of the skin and subcutaneous system
+- No. of deaths - Diseases of the musculoskeletal system and connective tissue
+- No. of deaths - Diseases of the genitourinary system
+- No. of deaths - Pregnancy, childbirth and the puerperium (only female)
+- No. of deaths - Conditions originating in the perinatal period
+- No. of deaths - Congenital malformations, deformations and abnormalities
+- No. of deaths - Symptoms, signs and abnormal clinical and laboratory findings 
+- No. of deaths - External causes of morbidity and mortality 
+
+Disease by name:
 - No. of deaths - Tuberculosis
 - No. of deaths - Intesinal infecious diseases
 - No. of deaths - Tetanus
@@ -41,6 +65,8 @@ For this project, I have found different data tables. Using these tables, I will
 - No. of deaths - Hyperplasia of prostate
 - No. of deaths - Transport accidents
 - No. of deaths - Intentional self-harm
+
+Hygene data:
 - Percentage of population that has access to sanitation services
 - Percentage of population that has access to drinking water services
 - Percentage of population that has handwashing facilities at home
@@ -53,7 +79,8 @@ WHO Mortality Database: http://apps.who.int/healthinfo/statistics/mortality/whod
 
 Using these tables, I will transform the data to create the following datasets:
 - Death rates per country (Total deaths / population number)
-- Death rates of certain disease per country (No. of deaths - disease / population number)
+- Death rates of diseases by collective name (No. of deaths / populations number)
+- Death rates of diseases by name (No. of deaths / population number)
 
 ## User interface
 
@@ -67,7 +94,7 @@ Data:
 - Life expectancy at birth
 - Life expectancy at age 60 (years)
 - Death rates per country
-- Death rates of certain diseases per country
+- Death rates disease by name
 
 D3 plugins:
 - Topojson
@@ -105,3 +132,55 @@ Interactivity:
 - Upon changing the year (using the Time Slider, see above), the indicator dot will move over each line to the datapoint corresponding with the new year.
 - When a user hovers over the graph, the indicator dots will move to the corresponding datapoints (on the 4 different lines) that match the x-coordinate of the mouse. Also, a 3d tooltip will appear above each indicator point showing the year and the percentage.
 
+**Visualisation 3: Sunburst**
+
+Data:
+- Death rates of disease by collectiive name
+- Death rates of disease by name 
+
+D3 plugins:
+- D3 tooltip
+
+Visualisation:
+- In the different layers of the sunburst, data will be distinguished in the following way (each new tab means a new layer starting with layer 1):
+
+- Death rate - Certain infectious and parasitic diseases
+	- Death rate - All diseases under this group name
+
+- Death rate - Other diseases
+	- Death rate - Neoplasms
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of blood and disorders of immune mechanism
+		- Death rate - All diseases under this group name
+	- Death rate - Endocrine, nurtitional and metabolic diseases
+		- Death rate - All diseases under this group name
+	- Death rate - Mental and behavioural disorders
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the nervous system
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the eye and adnexa
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the ear and mastoid process
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the circulatory system
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the resiratory system
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the digestive system
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the skin and subcutaneous system
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the musculoskeletal system and connective tissue
+		- Death rate - All diseases under this group name
+	- Death rate - Diseases of the genitourinary system
+		- Death rate - All diseases under this group name
+	- Death rate - Pregnancy, childbirth and the puerperium (only female)
+		- Death rate - All diseases under this group name
+	- Death rate - Conditions originating in the perinatal period
+		- Death rate - All diseases under this group name
+	- Death rate - Congenital malformations, deformations and abnormalities
+		- Death rate - All diseases under this group name
+	- Death rate - Symptoms, signs and abnormal clinical and laboratory findings 
+		- Death rate - All diseases under this group name
+	- Death rate - External causes of morbidity and mortality 
+		- Death rate - All diseases under this group name
