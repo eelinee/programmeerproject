@@ -96,6 +96,8 @@ Data:
 - Hygiene data
 - Death rate data
 
+![](doc/sunDataFormat.png)
+
 D3 plugins:
 - D3 tooltip
 
@@ -149,6 +151,7 @@ Data:
 - No. of deaths - per collective disease name
 - No. of deaths - per disease name
 
+![](doc/sunDataFormat.png)
 
 D3 plugins:
 - D3 tooltip
