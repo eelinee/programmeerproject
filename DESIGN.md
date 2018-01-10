@@ -89,26 +89,35 @@ Using these tables, I will transform the data to create the following datasets:
 
 The time slider can be used by the user to slide through data from the years 2000 through 2015. If the user moves the slider, Visualisations 1, 2 and 3 will be updated accordingly. Also, the current year will be displayed and updated on the screen.
 
-**Visualisation 1: World Map**
+**Visualisation 1: scatterplot**
 
 Data:
-- Life expectancy at birth
-- Life expectancy at age 60 (years)
-- Death rates per country
-- Death rates disease by name
+- General data
+- Hygiene data
+- Death rate data
 
 D3 plugins:
-- Topojson
 - D3 tooltip
 
 Visualisation:
-- This map shows the data value of each country of the current year by displaying the country in a color that correspons with the data value. One value is shown at a time per country, users can switch between data types.
+- In this scatterplot, the user can choose which data to compare. Using clickboxes, the user can choose variables to display on x-axis and y-axis. Each dot will represent a country. The options for x-axis and y-axis are as follows:
+
+- x-axis:
+	- Death rate data per collective name
+	- Death rate data per disease name
+	- Death rate all causes
+- y-axis:
+	- General data (population, life expectancy, BMI etc.)
+	- Hygiene data (open defecation, sanitary services etc.)
+
+Colors:
+- All dots have a color representing the region of their corresponding country.
+- The legenda shows 
 
 Interactivity:
-- Upon changing the year (using the Time Slider, see above), the map colors will update so that they represent the value for each country in the new current year.
-- To switch between data types, a dropdown menu is available for users to choose which data type the map should show. When a user chooses another data type, the colors of the map will be updated. 
-- When a user hovers over a country, it will turn black and a 3d tooltip will appear showing the value of the corresponding country
-- When a user clicks a country, the two other visualisations (2 and 3) will be updated so that they represent the clicked country. Also, the name of the current country will update.
+- On hovering over a dot, the opacity of all the other dots will increase. Also, a d3 tooltip will apear that shows the name of the country and the x and y-axis value. 
+- On clicking a dot, visualisation 2 and 3 will update, representing the data of the country that correspons with the clicked dot. 
+- On choosing other variables to show in the scatterplot, the dots will move to their new place in the graph.
 
 **Visualisation 2: Line Graph**
 
@@ -189,36 +198,39 @@ Interactivity:
 
 - If a user hovers over one of the parts of the sunburst, the opacity of other parts will increase and a d3 tooltip will appear, showing the disease (group)name and the value (death rate). 
 
-**OPTIONAL Visualisation 4: scatterplot**
+
+**OPTIONAL Visualisation 4: World Map**
 
 Data:
-- General data
-- Hygiene data
-- Death rate data
+- Life expectancy at birth
+- Life expectancy at age 60 (years)
+- Death rates per country
+- Death rates disease by name
 
 D3 plugins:
+- Topojson
 - D3 tooltip
 
-Visualisation & Interactivity:
-- In this scatterplot, the user can choose which data to compare. Using clickboxes, the user can choose values to display on x-axis and y-axis. Each dot will represent a country. The options for x-axis and y-axis are as follows:
+Visualisation:
+- This map shows the data value of each country of the current year by displaying the country in a color that correspons with the data value. One value is shown at a time per country, users can switch between data types.
 
-- x-axis:
-	- Death rate data per collective name
-	- Death rate data per disease name
-	- Death rate all causes
-- y-axis:
-	- General data (population, life expectancy, BMI etc.)
-	- Hygiene data (open defecation, sanitary services etc.)
+Interactivity:
+- Upon changing the year (using the Time Slider, see above), the map colors will update so that they represent the value for each country in the new current year.
+- To switch between data types, a dropdown menu is available for users to choose which data type the map should show. When a user chooses another data type, the colors of the map will be updated. 
+- When a user hovers over a country, it will turn black and a 3d tooltip will appear showing the value of the corresponding country
+- When a user clicks a country, the two other visualisations (2 and 3) will be updated so that they represent the clicked country. Also, the name of the current country will update.
 
 ## Data structure
 
-**My script will start like this**
+**Loading data**
 
 window.onload = function() {
 	d3.queue()
 	.defer(d3.csv, *allData*)
 	.await(createVisualisation)
 }
+
+**Creating visualisations**
 
 function createVisualisation(allData) {
 	createMap(mapData)
@@ -227,7 +239,10 @@ function createVisualisation(allData) {
 	createScatterPlot(scatterData)
 }
 
-Each function will be created in it's own script.
-There will be only one update function that calls all four visualisation functions again. 
+Each visualisation has it's own script and it's own create function.
 
+**Updating**
 
+- When a new country is selected, one update function will update the line graph and the sunburst.
+- When the timeslider moved to another year, another update function will update the line graph, sunburst and scatterplot (and optionally the map)
+- When a user chooses new variables for the scatterplot, another update function will update the scatterplot. 
