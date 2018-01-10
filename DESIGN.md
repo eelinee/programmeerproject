@@ -165,8 +165,17 @@ The time slider can be used by the user to slide through data from the years 200
 - No. of deaths - per collective disease name
 - No. of deaths - per disease name
 
-**Data format:**
+**Data format example:** 
 
+Deaths in the Netherlands
+
+Year | Disease 1 | Disease 1a | Disease 1b | Disease 2 | Disease 2a
+2000 | value | value | value | value | value |
+2002 | value | value | value | value | value |
+2003 | value | value | value | value | value |
+2004 | value | value | value | value | value |
+2005 | value | value | value | value | value |
+etc  | value | value | value | value | value |
 
 **D3 plugins:**
 
@@ -244,8 +253,6 @@ Visualisation: In the different layers of the sunburst, data will be distinguish
 - To switch between data types, a dropdown menu is available for users to choose which data type the map should show. When a user chooses another data type, the colors of the map will be updated. 
 - When a user hovers over a country, it will turn black and a 3d tooltip will appear showing the value of the corresponding country
 - When a user clicks a country, the two other visualisations (2 and 3) will be updated so that they represent the clicked country. Also, the name of the current country will update.
-
-## Data structure
 
 ### Loading data
 
