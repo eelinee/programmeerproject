@@ -11,6 +11,7 @@ General data:
 - Life expectancy at age 60 (years)
 - Total deaths all causes (in numbers)
 - Population number
+- Average BMI (optional)
 
 Disease by collective name:
 - No. of deaths - Certain infectious and parasitic diseases
@@ -66,7 +67,7 @@ Disease by name:
 - No. of deaths - Transport accidents
 - No. of deaths - Intentional self-harm
 
-Hygene data:
+Hygiene data:
 - Percentage of population that has access to sanitation services
 - Percentage of population that has access to drinking water services
 - Percentage of population that has handwashing facilities at home
@@ -141,8 +142,7 @@ Data:
 D3 plugins:
 - D3 tooltip
 
-Visualisation:
-- In the different layers of the sunburst, data will be distinguished in the following way (each new tab means a new layer starting with layer 1):
+Visualisation: In the different layers of the sunburst, data will be distinguished in the following way (each new tab means a new layer starting with layer 1):
 
 - Death rate - Certain infectious and parasitic diseases
 	- Death rate - All diseases under this group name
@@ -184,3 +184,29 @@ Visualisation:
 		- Death rate - All diseases under this group name
 	- Death rate - External causes of morbidity and mortality 
 		- Death rate - All diseases under this group name
+
+Interactivity:
+
+- If a user hovers over one of the parts of the sunburst, the opacity of other parts will increase and a d3 tooltip will appear, showing the disease (group)name and the value (death rate). 
+
+**OPTIONAL Visualisation 4: scatterplot**
+
+Data:
+- General data
+- Hygiene data
+- Death rate data
+
+D3 plugins:
+- D3 tooltip
+
+Visualisation & Interactivity:
+- In this scatterplot, the user can choose which data to compare. Using clickboxes, the user can choose values to display on x-axis and y-axis. Each dot will represent a country. The options for x-axis and y-axis are as follows:
+
+- x-axis:
+	- Death rate data per collective name
+	- Death rate data per disease name
+	- Death rate all causes
+- y-axis:
+	- General data (population, life expectancy, BMI etc.)
+	- Hygiene data (open defecation, sanitary services etc.)
+
