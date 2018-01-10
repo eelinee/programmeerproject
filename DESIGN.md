@@ -2,7 +2,7 @@
 
 ## Data sources
 
-###Tables
+### Tables
 
 For this project, I have found different data tables. Using these tables, I will create the data lists that I need. The tables I have found contain data per country and are the following:
 
@@ -80,7 +80,7 @@ For this project, I have found different data tables. Using these tables, I will
 WHO Mortality Database: http://apps.who.int/healthinfo/statistics/mortality/whodpms/
 
 
-###Transformations
+### Transformations
 
 Using these tables, I will transform the data to create the following datasets:
 - Death rates per country (Total deaths / population number)
@@ -89,11 +89,11 @@ Using these tables, I will transform the data to create the following datasets:
 
 ## User interface
 
-###Time Slider
+### Time Slider
 
 The time slider can be used by the user to slide through data from the years 2000 through 2015. If the user moves the slider, Visualisations 1, 2 and 3 will be updated accordingly. Also, the current year will be displayed and updated on the screen.
 
-###Visualisation 1: scatterplot
+### Visualisation 1: scatterplot
 
 **Data:**
 
@@ -130,7 +130,7 @@ The time slider can be used by the user to slide through data from the years 200
 - On clicking a dot, visualisation 2 and 3 will update, representing the data of the country that correspons with the clicked dot. 
 - On choosing other variables to show in the scatterplot, the dots will move to their new place in the graph.
 
-###Visualisation 2: Line Graph
+### Visualisation 2: Line Graph
 
 **Data:**
 
@@ -157,7 +157,7 @@ The time slider can be used by the user to slide through data from the years 200
 - Upon changing the year (using the Time Slider, see above), the indicator dot will move over each line to the datapoint corresponding with the new year.
 - When a user hovers over the graph, the indicator dots will move to the corresponding datapoints (on the 4 different lines) that match the x-coordinate of the mouse. Also, a 3d tooltip will appear above each indicator point showing the year and the percentage.
 
-###Visualisation 3: Sunburst
+### Visualisation 3: Sunburst
 
 **Data:**
 
@@ -220,7 +220,7 @@ Visualisation: In the different layers of the sunburst, data will be distinguish
 - If a user hovers over one of the parts of the sunburst, the opacity of other parts will increase and a d3 tooltip will appear, showing the disease (group)name and the value (death rate). 
 
 
-###OPTIONAL Visualisation 4: World Map
+### OPTIONAL Visualisation 4: World Map
 
 **Data:**
 
@@ -247,7 +247,7 @@ Visualisation: In the different layers of the sunburst, data will be distinguish
 
 ## Data structure
 
-###Loading data
+### Loading data
 
 window.onload = function() {
 	d3.queue()
@@ -255,7 +255,7 @@ window.onload = function() {
 	.await(createVisualisation)
 }
 
-###Creating visualisations
+### Creating visualisations
 
 function createVisualisation(allData) {
 	createMap(mapData)
@@ -266,7 +266,7 @@ function createVisualisation(allData) {
 
 Each visualisation has it's own script and it's own create function.
 
-###Updating
+### Updating
 
 - When a new country is selected, one update function will update the line graph and the sunburst.
 - When the timeslider moved to another year, another update function will update the line graph, sunburst and scatterplot (and optionally the map)
