@@ -2,18 +2,20 @@
 
 ## Data sources
 
-**Tables** 
+###Tables
 
 For this project, I have found different data tables. Using these tables, I will create the data lists that I need. The tables I have found contain data per country and are the following:
 
-General data:
+**General data:**
+
 - Life expectancy at birth 
 - Life expectancy at age 60 (years)
 - Total deaths all causes (in numbers)
 - Population number
 - Average BMI (optional)
 
-Disease by collective name:
+**Disease by collective name:**
+
 - No. of deaths - Certain infectious and parasitic diseases
 - No. of deaths - Neoplasms
 - No. of deaths - Diseases of blood and disorders of immune mechanism
@@ -34,7 +36,8 @@ Disease by collective name:
 - No. of deaths - Symptoms, signs and abnormal clinical and laboratory findings 
 - No. of deaths - External causes of morbidity and mortality 
 
-Disease by name:
+**Disease by name:**
+
 - No. of deaths - Tuberculosis
 - No. of deaths - Intesinal infecious diseases
 - No. of deaths - Tetanus
@@ -67,7 +70,8 @@ Disease by name:
 - No. of deaths - Transport accidents
 - No. of deaths - Intentional self-harm
 
-Hygiene data:
+**Hygiene data:**
+
 - Percentage of population that has access to sanitation services
 - Percentage of population that has access to drinking water services
 - Percentage of population that has handwashing facilities at home
@@ -76,7 +80,7 @@ Hygiene data:
 WHO Mortality Database: http://apps.who.int/healthinfo/statistics/mortality/whodpms/
 
 
-**Transformations**
+###Transformations
 
 Using these tables, I will transform the data to create the following datasets:
 - Death rates per country (Total deaths / population number)
@@ -85,23 +89,26 @@ Using these tables, I will transform the data to create the following datasets:
 
 ## User interface
 
-**Time Slider**
+###Time Slider
 
 The time slider can be used by the user to slide through data from the years 2000 through 2015. If the user moves the slider, Visualisations 1, 2 and 3 will be updated accordingly. Also, the current year will be displayed and updated on the screen.
 
-**Visualisation 1: scatterplot**
+###Visualisation 1: scatterplot
 
-Data:
+**Data:**
+
 - General data
 - Hygiene data
 - Death rate data
 
-![](doc/sunDataFormat.png)
 
-D3 plugins:
+
+**D3 plugins:**
+
 - D3 tooltip
 
-Visualisation:
+**Visualisation:**
+
 - In this scatterplot, the user can choose which data to compare. Using clickboxes, the user can choose variables to display on x-axis and y-axis. Each dot will represent a country. The options for x-axis and y-axis are as follows:
 
 - x-axis:
@@ -112,27 +119,32 @@ Visualisation:
 	- General data (population, life expectancy, BMI etc.)
 	- Hygiene data (open defecation, sanitary services etc.)
 
-Colors:
+**Colors:**
+
 - All dots have a color representing the region of their corresponding country.
 - The legenda shows 
 
-Interactivity:
+**Interactivity:**
+
 - On hovering over a dot, the opacity of all the other dots will increase. Also, a d3 tooltip will apear that shows the name of the country and the x and y-axis value. 
 - On clicking a dot, visualisation 2 and 3 will update, representing the data of the country that correspons with the clicked dot. 
 - On choosing other variables to show in the scatterplot, the dots will move to their new place in the graph.
 
-**Visualisation 2: Line Graph**
+###Visualisation 2: Line Graph
 
-Data:
+**Data:**
+
 - Percentage of population that has access to sanitation services
 - Percentage of population that has access to drinking water services
 - Percentage of population that has handwashing facilities at home
 - Percentage of population that practices open defecation
 
-D3 plugins:
+**D3 plugins:**
+
 - D3 tooltip
 
-Visualisation:
+**Visualisation:**
+
 - This line graph shows four different lines:
 	- Yellow: Percentage of population that has access to sanitation services per year
 	- Blue: Percentage of population that has access to drinking water services per year
@@ -140,20 +152,24 @@ Visualisation:
 	- Green: Percentage of population that practices open defecation per year
 - A dot on each line will indicate which datapoint correspons with the current year. 
 
-Interactivity:
+**Interactivity:**
+
 - Upon changing the year (using the Time Slider, see above), the indicator dot will move over each line to the datapoint corresponding with the new year.
 - When a user hovers over the graph, the indicator dots will move to the corresponding datapoints (on the 4 different lines) that match the x-coordinate of the mouse. Also, a 3d tooltip will appear above each indicator point showing the year and the percentage.
 
-**Visualisation 3: Sunburst**
+###Visualisation 3: Sunburst
 
-Data:
+**Data:**
+
 - Total deaths all causes
 - No. of deaths - per collective disease name
 - No. of deaths - per disease name
 
-![](doc/sunDataFormat.png)
+**Data format:**
 
-D3 plugins:
+
+**D3 plugins:**
+
 - D3 tooltip
 
 Visualisation: In the different layers of the sunburst, data will be distinguished in the following way (each new tab means a new layer starting with layer 1):
@@ -199,27 +215,31 @@ Visualisation: In the different layers of the sunburst, data will be distinguish
 	- Death rate - External causes of morbidity and mortality 
 		- Death rate - All diseases under this group name
 
-Interactivity:
+**Interactivity:**
 
 - If a user hovers over one of the parts of the sunburst, the opacity of other parts will increase and a d3 tooltip will appear, showing the disease (group)name and the value (death rate). 
 
 
-**OPTIONAL Visualisation 4: World Map**
+###OPTIONAL Visualisation 4: World Map
 
-Data:
+**Data:**
+
 - Life expectancy at birth
 - Life expectancy at age 60 (years)
 - Death rates per country
 - Death rates disease by name
 
-D3 plugins:
+**D3 plugins:**
+
 - Topojson
 - D3 tooltip
 
-Visualisation:
+**Visualisation:**
+
 - This map shows the data value of each country of the current year by displaying the country in a color that correspons with the data value. One value is shown at a time per country, users can switch between data types.
 
-Interactivity:
+**Interactivity:**
+
 - Upon changing the year (using the Time Slider, see above), the map colors will update so that they represent the value for each country in the new current year.
 - To switch between data types, a dropdown menu is available for users to choose which data type the map should show. When a user chooses another data type, the colors of the map will be updated. 
 - When a user hovers over a country, it will turn black and a 3d tooltip will appear showing the value of the corresponding country
@@ -227,7 +247,7 @@ Interactivity:
 
 ## Data structure
 
-**Loading data**
+###Loading data
 
 window.onload = function() {
 	d3.queue()
@@ -235,7 +255,7 @@ window.onload = function() {
 	.await(createVisualisation)
 }
 
-**Creating visualisations**
+###Creating visualisations
 
 function createVisualisation(allData) {
 	createMap(mapData)
@@ -246,7 +266,7 @@ function createVisualisation(allData) {
 
 Each visualisation has it's own script and it's own create function.
 
-**Updating**
+###Updating
 
 - When a new country is selected, one update function will update the line graph and the sunburst.
 - When the timeslider moved to another year, another update function will update the line graph, sunburst and scatterplot (and optionally the map)
