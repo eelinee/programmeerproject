@@ -94,9 +94,9 @@ The time slider can be used by the user to slide through data from the years 200
 Data:
 - General data
 - Hygiene data
-- Death rate dataHALLO
+- Death rate data
 
-![](doc/scetch.png)
+![](doc/sunDataFormat.png)
 
 D3 plugins:
 - D3 tooltip
