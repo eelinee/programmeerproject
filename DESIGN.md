@@ -101,7 +101,18 @@ The time slider can be used by the user to slide through data from the years 200
 - Hygiene data
 - Death rate data
 
+**Data format example:** 
 
+Deaths per 100 population, disease 1
+
+Country | 2000 | 2001 | 2002 | 2003 | etc
+---- | --------- | ---------- | ---------- | --------- | ----------
+the Netherlands | value | value | value | value | value |
+Belgium | value | value | value | value | value |
+France | value | value | value | value | value |
+Germany | value | value | value | value | value |
+United Kingdom | value | value | value | value | value |
+etc  | value | value | value | value | value |
 
 **D3 plugins:**
 
@@ -177,6 +188,8 @@ Year | Disease 1 | Disease 1a | Disease 1b | Disease 2 | Disease 2a
 2004 | value | value | value | value | value |
 2005 | value | value | value | value | value |
 etc  | value | value | value | value | value |
+
+Disease 1 is the collective name for a group diseases (1a and 1b)
 
 **D3 plugins:**
 
