@@ -170,6 +170,7 @@ The time slider can be used by the user to slide through data from the years 200
 Deaths in the Netherlands
 
 Year | Disease 1 | Disease 1a | Disease 1b | Disease 2 | Disease 2a
+---- | --------- | ---------- | ---------- | --------- | ----------
 2000 | value | value | value | value | value |
 2002 | value | value | value | value | value |
 2003 | value | value | value | value | value |
