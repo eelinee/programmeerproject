@@ -145,8 +145,10 @@ Interactivity:
 **Visualisation 3: Sunburst**
 
 Data:
-- Death rates of disease by collectiive name
-- Death rates of disease by name 
+- Total deaths all causes
+- No. of deaths - per collective disease name
+- No. of deaths - per disease name
+
 
 D3 plugins:
 - D3 tooltip
