@@ -210,3 +210,24 @@ Visualisation & Interactivity:
 	- General data (population, life expectancy, BMI etc.)
 	- Hygiene data (open defecation, sanitary services etc.)
 
+## Data structure
+
+**My script will start like this**
+
+window.onload = function() {
+	d3.queue()
+	.defer(d3.csv, *allData*)
+	.await(createVisualisation)
+}
+
+function createVisualisation(allData) {
+	createMap(mapData)
+	createLineGraph(lineData)
+	createSunBurst(sunData)
+	createScatterPlot(scatterData)
+}
+
+Each function will be created in it's own script.
+There will be only one update function that calls all four visualisation functions again. 
+
+
