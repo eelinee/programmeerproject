@@ -37,7 +37,7 @@ To understand where the big differences in life expectancy and disease incidence
 
 **Scetch**
 
-![](doc/scetch.png)
+![](doc/scetch.jpg)
 
 ## Prerequisites
 
