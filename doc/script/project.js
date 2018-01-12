@@ -9,13 +9,14 @@ window.onload = function() {
 
 	// load datasets using a queue
 	d3.queue()
-	.defer(d3.csv, "totalDeaths.csv")
-	.defer(d3.csv, "totalPopulation.csv")
-	.defer(d3.csv, "drinkingwaterPopulation.csv")
+	// .defer(d3.csv, "totalDeaths.csv")
+	// .defer(d3.csv, "totalPopulation.csv")
+	// .defer(d3.csv, "drinkingwaterPopulation.csv")
+	.defer(d3.csv, "rawData.json")
 	.await(createVisualisation);
 };
 
-function createVisualisation(error, totalDeaths, totalPopulation, drinkingWater) {
+function createVisualisation(error, rawData) {
 	if (error) {
 		alert("Could not load data");
 	};
@@ -29,8 +30,10 @@ function createVisualisation(error, totalDeaths, totalPopulation, drinkingWater)
 
 	currentdata = [];
 
-	createGraph(drinkingWater);
-	createScatter(totalPopulation, totalDeaths);
-	createSun(totalDeaths)
+	console.log(rawData[1])
+
+	// createGraph(drinkingWater);
+	// createScatter(totalPopulation, totalDeaths);
+	// createSun(totalDeaths)
 
 };
