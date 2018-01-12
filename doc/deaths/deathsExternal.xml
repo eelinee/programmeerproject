@@ -1,0 +1,2792 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Eline</Author>
+  <LastAuthor>Eline</LastAuthor>
+  <Created>2018-01-11T10:46:51Z</Created>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10005</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="16"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial"/>
+   <Interior ss:Color="#D3D3D3" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="143" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="150"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60" ss:Span="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="16" ss:StyleID="s63"><Data ss:Type="String">Total deaths, ICD chapter 20 (External causes of morbidity and mortality), both sexes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Countries</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2015</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2014</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2012</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2011</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2010</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2008</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2007</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2006</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2004</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Albania</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">756</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">891</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">987</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">964</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">973</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1214</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1215</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1222</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1248</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1281</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1416 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Anguilla</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Antigua and Barbuda</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">45</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">37</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20207</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20671</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20039</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19529</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18640</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18404</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19647</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19461</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19091</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18436</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18019</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18863</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19660</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19895</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19355 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Armenia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1355</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1239</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1281</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1360</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1363</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1249</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1222</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1321</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1323</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1039</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1071</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1101</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1102 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aruba</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">51</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">45</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">63</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">46</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">49</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">45</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">56</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">40</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">43</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">49</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">48</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">48 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Australia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10062</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9163</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9338</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9209</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8981</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9071</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8900</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8232</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8102</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7970</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7673</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7786</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7808</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8173 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Austria</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4264</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4303</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4442</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4213</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4200</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4293</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4217</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4217</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4211</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4439</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4166</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4261</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4317</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4227</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4399 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Azerbaijan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2265</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1964</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2109</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1869</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1978</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2097 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bahamas</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">257</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">235</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">260</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">233</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">224</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">211</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">214</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">185</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">206</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">161</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">158</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">169</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">161</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">217 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bahrain</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">206</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">227</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">219</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">166</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">181</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">218</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">226</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">225</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">272</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">205</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">199</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">182</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">178</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">184</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">310 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Barbados</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">113</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">115</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">131</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">120</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">126</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">82</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">118</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">90</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">83</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">101</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">110</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">91</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">55</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">101 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Belarus</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9684</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10456</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13498</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14281</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13896</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14333</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14359</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16513</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17096</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16639</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15813 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Belgium</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6831</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7047</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6804</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6651</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6749</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6644</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6420</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6324</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6460</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6247</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6399</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6558</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6856</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6839 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Belize</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">285</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">266</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">262</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">256</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">262</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">223</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">265</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">228</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">242</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">264</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">224</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">222</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">252</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">264</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">210 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bermuda</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bolivia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2581</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2861</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2261</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2358 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bosnia and Herzegovina</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1049</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1176</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Brazil</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">156907</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">151646</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">152084</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">146034</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">143440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">138891</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">135637</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">131234</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">128591</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">127563</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">127400</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">126591</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">126430</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">120854</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">118285 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">British Virgin Islands</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Brunei Darussalam</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">82</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">98</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">103</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">62</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">78</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">79</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">82</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">82</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">77</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">78</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">93</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">85 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bulgaria</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2765</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3058</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2820</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3036</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3416</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3899</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3797</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3914</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3931</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3880</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4039</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4243</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4371</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4653 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Canada</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16644</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15802</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16258</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15637</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15447</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14949</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14523</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14739</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13941</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14101</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13835</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13267</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13249 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cabo Verde</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">289</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cayman Islands</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7746</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7616</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7561</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8027</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8386</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8151</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7961</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7657</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7847</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7518</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7508</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7407</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7319</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7623</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7754 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Colombia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29512</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30746</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31308</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33597</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">35361</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33117</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32469</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34321</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34518</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">38438</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">39366</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">48320</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">47109</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">45945 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Costa Rica</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2193</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2013</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2119</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2160</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2259</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1979</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2073</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1927</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2147</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1891</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1983</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1935</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1851</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1768</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1817 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Croatia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2888</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2750</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2758</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2951</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2767</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2968</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2987</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3035</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2953</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2753</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2878</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2870</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2859</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2707</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2742</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2905 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7717</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7549</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7275</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7010</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7161</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7162</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6818</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6450</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6453</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7047</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6880</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6781</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6952</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7322</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7655 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cyprus</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">290</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">270</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">251</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">293</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">313</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">314</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">330</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">294</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">410</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">318</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">143 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Czech Republic</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5812</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5714</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5598</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5856</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5973</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6009</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5946</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6121</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6131</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5893</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6376</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6991</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7295</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6838</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6910</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7070 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Denmark</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2039</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2051</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2092</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2160</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2059</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2213</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2438</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2503</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2672</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2589</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2435</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2547</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2596</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3356 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Dominica</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">45</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">56</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Dominican Republic</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4560</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3776</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4167</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3606</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3758</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3536</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3800</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4113</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4131</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3590</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3364</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3118 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ecuador</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8273</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8533</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9096</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9683</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9871</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9677</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9536</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8610</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8610</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8517</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7769</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7456</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7735</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7811</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8085 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Egypt</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21375</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21337</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18735</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21027</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19237</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17969</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18211</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17569</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17105</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16124</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16210</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18618</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17778</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17066</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16709 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">El Salvador</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4426</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4579</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5757</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6544</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5668</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6082</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6348</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6059</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5503</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4973</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4683</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5699</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5051 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Estonia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">975</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1179</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1134</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1135</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1284</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1358</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1612</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1628</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1659</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1766</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1837</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2330</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2092 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Falkland Islands (Malvinas)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fiji</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">355</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">313</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">310</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">397</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">352</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">346</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">361</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">346</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">342</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">347</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">292</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Finland</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3477</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3605</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3683</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3866</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4150</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4277</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4245</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4337</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4295</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4353</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4125</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4077</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4166</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4128 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">France</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">35909</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36900</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">37229</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">37805</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">37661</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">37038</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36645</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36867</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">37808</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">37431</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41674</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">40888</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41066</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41436 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">French Guiana</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">94</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">127</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">115</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">117</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">127</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">130</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">118</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">135</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">155</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">137</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">133</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">118</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">69</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Georgia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1934</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1539</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1715</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1379</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1045</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1651</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1354</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1266</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1238</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1910</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1265</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1237 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Germany</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34667</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34133</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32931</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32988</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33312</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31832</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31511</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30650</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32280</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33024</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33309</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34606</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34296</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34201</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34523 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Greece</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3473</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3466</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3460</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3554</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3868</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3849</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4143</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3881</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4244</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4147</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4041</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3993</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4400</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4496 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Grenada</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">59</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">47</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">43</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">42</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">51</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">50</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">50</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">57</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">62</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">40</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">43</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Guadeloupe</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">220</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">258</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">253</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">261</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">260</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">244</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">242</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">260</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">239</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">227</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">236</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">261</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">264</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">305 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Guatemala</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12102</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12357</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12322</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12599</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13022</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13439</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12402</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11589</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12414</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11505</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9772</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9382</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8885</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8599</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8718 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Guyana</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">764</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">766</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">744</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">649</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">638</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">699</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">755</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">697</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">670</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">718</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">659</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">585</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Haiti</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">139</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">504</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">506</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">519</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Honduras</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">571</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">553</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">618</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">596</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">527</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">392</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Hong Kong SAR</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1860</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1654</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1567</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1864</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1938</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1766</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1855</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1961</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2150</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2243</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2044</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2068</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1844</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1906 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Hungary</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5888</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6124</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6519</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6719</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7073</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7187</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7366</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7438</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7596</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7990</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9097</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9435</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9513</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9455</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9541 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Iceland</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">136</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">122</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">146</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">121</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">116</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">137</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">118</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">125</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">119</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">145</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">104</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">104</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">102</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">112</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">131</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">133 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Iraq</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18359</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ireland</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1491</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1577</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1693</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1601</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1894</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1721</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1759</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1480</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1579</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1420</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1457</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1603</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1648</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1578 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Israel</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1751</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1753</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1801</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1919</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1981</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1927</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2036</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1898</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1960</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2109</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2129</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2175</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2435</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2271</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2111 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Italy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23775</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23693</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24031</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24642</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24325</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24459</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24407</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25684</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26693</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26727</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26100 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jamaica</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2053</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">705</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2668</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">605</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2600</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">369</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">345</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">339</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">429</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">417 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Japan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">69549</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">71767</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73469</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">94114</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">75965</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73598</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73523</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73826</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73112</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">75380</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73425</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">75638</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73327</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73131</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73805 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jordan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1645</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1462</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1540</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1471</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1425</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Kazakhstan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14468</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15136</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16511</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16497</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16990</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17746</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17258</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19693</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22488</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23005</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22403</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22128</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21326</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20693</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21614</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20921 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Kiribati</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Kuwait</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">914</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">822</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">895</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">740</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">692</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">856</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">852</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">882</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">848</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">832</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">897</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">728</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">644</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">658</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">659 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3108</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3107</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3156</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3475</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3617</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3954</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3468</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3789</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3730</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3831</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3682</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3601</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3665</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3447</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3261</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3434 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Latvia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1870</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1803</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1889</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1840</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2108</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2158</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2453</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2850</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3240</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3216</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3181</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3373</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3666</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3703</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3773 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lithuania</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3207</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3338</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3615</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3659</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3720</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4045</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4168</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4785</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5246</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5340</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5549</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5077</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5241</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5280</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5498</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5102 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Luxembourg</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">240</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">258</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">243</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">256</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">257</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">232</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">210</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">245</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">235</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">187</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">207</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">237</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">257</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">256</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">256 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Macau</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Malaysia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8809</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8261</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8190</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8250</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8132</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7308</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7021</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7462 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Maldives</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">53</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">49</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">663</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">413</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">83</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">113</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">110</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">61 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Malta</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">107</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">113</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">98</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">119</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">134</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">136</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">141</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">115</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">117</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">125</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">139</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">125</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">132</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">105 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Martinique</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">162</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">170</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">166</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">136</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">188</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">187</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">218</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">190</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">167</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">205</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">182</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">199</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">221 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Mauritius</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">523</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">489</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">491</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">584</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">555</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">532</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">529</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">528</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">514</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">501</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">525</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">464</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">524</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">484</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">491 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Mayotte</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Mexico</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">63762</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">66231</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">70458</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">72175</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">69836</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">64549</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">59655</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">52762</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">53995</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">52501</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">50692</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">51643</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">51658</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">51130</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">52102 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Monaco</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Mongolia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Montenegro</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">232</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">231</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">233</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">293</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">232</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">214</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">233</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">238</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">297</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">245 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Montserrat</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Morocco</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3941</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3804</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3617</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3958</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3730</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Netherlands</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7241</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6813</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6443</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6337</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5855</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5749</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5618</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5426</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5211</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5360</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5343</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5226</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5404</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5318</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5444</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5169 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Netherlands Antilles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">62 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">New Zealand</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1915</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1952</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1918</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1919</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1835</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1744</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1710</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1717</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1803</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1698</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1651</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1614 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nicaragua</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2138</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2305</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2227</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1988</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2317</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2305</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2234</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1832</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2213</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2037</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2068</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2071</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1890 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Norway</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2575</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2560</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2424</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2607</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2527</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2596</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2455</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2386</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2403</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2410</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2555</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2462</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2287</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2289</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2368 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Occupied Palestinian Territory</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">336</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">384</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">330</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">320</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">370</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">310</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">290</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Oman</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">684</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">773</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Panama</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1784</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1735</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1897</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1903</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1960</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1979</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1839</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1615</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1706</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1443</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1382</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1492</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1434</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1348</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1347 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Paraguay</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3121</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3028</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2917</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2918</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3015</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3099</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2792</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2544</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2561</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2345</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2556</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2322</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2105</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2108</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2039 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10118</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11552</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10378</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8703</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8634</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8801</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8965</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9782</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8506</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11286</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8108</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8579</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7394</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7638</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8968 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Philippines</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36437</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36646</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36267</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">35522</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34382</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36531</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33966</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33617</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32856</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32355 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Poland</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21400</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22453</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23580</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23784</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23828</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24297</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25363</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24751</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25193</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25363</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24966</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24811</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25388</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25043</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25763 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Portugal</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4818</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4227</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3955</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4108</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4527</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4477</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4554</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4461</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5630</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5741</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5168</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4769 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Puerto Rico</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1927</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2187</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2255</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2481</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2306</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2301</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2240</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2227</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2214</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2212</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2162</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2072</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2110</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2364</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2387 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Qatar</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">468</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">383</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">381</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">402</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">435</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">435</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">474</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">330</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">283</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">207</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Republic of Korea</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31015</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31153</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32445</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32644</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">32661</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30475</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30137</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29504</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30864</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30476</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31456</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28762</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28632</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28799 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Republic of Moldova</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2742</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3035</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2839</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3085</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3071</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3692</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3460</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3548</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3647</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3766</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3896</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3661</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3726</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3564</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3572</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3380 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Reunion</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">322</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">326</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">325</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">339</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">363</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">335</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">342</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">372</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">354</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">298</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">363</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">394</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">371</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Rodrigues</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Romania</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9839</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10083</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10224</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10768</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10748</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12379</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12501</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13133</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12593</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13084</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13041</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13462</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14123</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14509</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14270</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14412 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Russian Federation</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">199358</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">216867</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">224576</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">244463</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">259412</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">282785</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">315915</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">327123</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">335173</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">339296</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">331634</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">318716 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Saint Kitts and Nevis</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">36</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">43</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">42</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">33</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Saint Lucia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">114</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">119</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">103</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">120</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">98</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">113</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">57</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">72</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">94</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">95</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">88</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">104</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">79</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">97 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Saint Pierre and Miquelon</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Saint Vincent and Grenadines</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">75</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">72</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">59</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">57</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">47</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">53</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">57</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">58</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">71</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">58</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">76</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">76</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">58</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">54</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">46 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">San Marino</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sao Tome and Principe</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Saudi Arabia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8860</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8234</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Serbia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3075</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3172</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3285</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3325</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3387</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3739</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3692</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3869</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3869</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3809</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3852</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3895</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3931</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4306</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4122 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Seychelles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">46</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">47</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">63</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">42</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">42</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">47</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">34</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">53</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Singapore</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">669</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">708</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">727</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">781</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">784</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">762</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">762</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">800</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">815</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">832</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">846</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">822</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">862</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">827</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">792</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">845 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Slovakia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3166</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3139</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3405</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2947</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2957</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3174</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2968</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3062</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3132</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3062</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3083</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3022</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3039</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3114 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Slovenia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1395</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1457</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1564</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1624</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1515</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1599</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1515</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1597</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1590</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1435</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1493</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1597</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1489</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1565</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1543 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">South Africa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">47324</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">46821</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">48127</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">46560</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">48238</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">49357</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">52831</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">54125</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">52474</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">52962</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">52342</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">52304</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">51115</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">50048</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">49424 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Spain</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14903</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14678</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14005</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14233</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14066</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14496</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15289</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15917</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16139</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16902</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17044</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16697</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15931</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16541 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sri Lanka</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12963</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13430</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13391</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">14259</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">16930 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Suriname</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">335</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">360</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">335</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">379</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">378</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">414</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">398</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">365</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">331</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">346</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">340</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">313</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">281</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">290</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">270 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sweden</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5115</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4841</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4816</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4681</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4598</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4659</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4717</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4810</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4835</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4623</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4808</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5116</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4619</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4725</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4659</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4267 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Switzerland</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3650</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3640</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3566</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3581</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3742</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3782</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3721</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3461</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3541</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3621</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3653</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3681</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3744 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Syrian Arab Republic</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3102</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3206</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3689</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3302</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3202</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2931</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2491</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2401</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2968</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2291</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2948 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Tajikistan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1728</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1789</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1710</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1874</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1631</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1600 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">TFYR Macedonia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">552</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">584</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">527</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">588</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">613</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">600</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">743</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">653</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">587</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">712</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">639</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">748</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">741</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">728 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Thailand</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">38451</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">39411</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">40130</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">40682</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">39924</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41943</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41787</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">42884</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44442</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">43160</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">44196</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">45119</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">42803</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">40874 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Trinidad and Tobago</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1127</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1164</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1372</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1111</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">993</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">909</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">835</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">714</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">797</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">677 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Tunisia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1197</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1382</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19608</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">13173</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12690</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">12981</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">11289</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Turkmenistan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1174</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1561</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1268</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1474</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1616</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1567</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1846</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2054</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2431</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2313</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2218</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2194</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2395</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2104</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1934 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Turks and Caicos Islands</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ukraine</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">40135</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">41713</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">42380</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">43955</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">48936</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">61377</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">65978</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">64556</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">69954</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">71329</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">72576</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">76311</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">75318</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73575 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">United Arab Emirates</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1275</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1438</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1477</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1370</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1129</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1171</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">United Kingdom</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22264</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20784</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21057</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20457</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21081</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21390</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20728</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20853</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20610</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20640</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20304</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19823</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20330</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">19530 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">United States of America</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">202296</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">195710</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">192988</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">190048</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">183636</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">180171</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">183816</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">185125</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">182314</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">176406</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">170067</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">166857</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">164112</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">160099</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">151268 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Uruguay</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2386</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2421</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2336</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2151</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2042</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2035</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2102</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1968</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1990</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1899</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1821</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2009</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1873</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2027 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Uzbekistan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9208</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9473</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8964</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8598</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8516</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">8739</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10142</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9858</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">9602</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10496</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10665</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10680 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Venezuela (Bolivarian Republic of)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29069</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30308</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27292</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27427</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29398</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28088</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25536</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22980</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23521</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25356</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23165</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21036</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20068 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Virgin Islands (USA)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">100</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">76</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">90</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">100</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">82</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">87</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">85</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">65</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">72</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">63</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">71</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">73</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">59 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Zimbabwe</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Total reporting countries</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C17</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <x:ExcelWorkbook/>
+</Workbook>

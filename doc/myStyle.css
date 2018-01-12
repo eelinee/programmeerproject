@@ -1,39 +1,52 @@
-.country:hover{
-  stroke: #fff;
-  stroke-width: 1.5px;
+body {
+	background-color: steelblue;
 }
-.text{
-  font-size:10px;
-  text-transform:capitalize;
+
+.parentDiv {
+	width: 1350px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
 }
-#container {
-  margin:10px 10%;
-  border:2px solid #000;
-  border-radius: 5px;
-  height:100%;
-  overflow:hidden;
-  background: #F0F8FF;
+
+.scatterDiv {
+	width: 900px;
+	height: 600px;
+	float: right;
+	background-color: whitesmoke; 
 }
-.hidden { 
-  display: none; 
+
+.graphDiv {
+	width: 450px;
+	height: 300px;
+	float: left;
+	background-color: lightblue;
 }
-div.tooltip {
-  color: #222; 
-  background: #fff; 
-  padding: .5em; 
-  text-shadow: #f5f5f5 0 1px 0;
-  border-radius: 2px; 
-  box-shadow: 0px 0px 2px 0px #a6a6a6; 
-  opacity: 0.9; 
-  position: absolute;
+
+.sunDiv {
+	width: 450px;
+	height: 300px;
+	float: left;
+	background-color: white;
 }
-.graticule {
-  fill: none;
-  stroke: #bbb;
-  stroke-width: .5px;
-  stroke-opacity: .5;
+
+.axis path,
+
+.axis line {
+	fill: none;
+	stroke: #000;
+	stroke-width: 1px;
+	shape-rendering: crispEdges;
 }
-.equator {
-  stroke: #ccc;
-  stroke-width: 1px;
+
+.imageDiv {
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
+
+.imageDiv:hover {
+	opacity: 0.8;
+	/*}*/
