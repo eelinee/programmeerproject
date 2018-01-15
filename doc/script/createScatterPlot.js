@@ -4,10 +4,10 @@ Studentnumber: 10811834
 'createScatterPlot.js'
 This script......*/
 
-function createScatter(diseaseData, generalData) {
+function createScatter(diseaseData, hygieneData) {
 	console.log("SCATTER")
 	
-	scatterWidth = (width / 3) * 2;
+	scatterWidth = witdh - width / 2.5;
 	scatterHeight = height;
 
 	var scatterSvg = d3.select(".scatterDiv")

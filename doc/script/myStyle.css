@@ -3,31 +3,31 @@ body {
 }
 
 .parentDiv {
-	width: 1350px;
+	width: 1400px;
 	margin-right: auto;
 	margin-left: auto;
 	height: 100%;
 }
 
 .scatterDiv {
-	width: 900px;
+	width: 840px;
 	height: 600px;
 	float: right;
 	background-color: whitesmoke; 
 }
 
 .graphDiv {
-	width: 450px;
+	width: 560px;
 	height: 300px;
 	float: left;
 	background-color: lightblue;
 }
 
 .sunDiv {
-	width: 450px;
+	width: 560px;
 	height: 300px;
 	float: left;
-	background-color: white;
+	background-color: lightgrey;
 }
 
 .axis path,

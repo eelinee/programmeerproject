@@ -8,268 +8,269 @@ diseases = ["Total","Certain infectious and parasitic diseases","Neoplasms","Dis
 
 jsonfile = open('sunBurstData.json', 'w')
 
-deaths2000 = open('deaths2000.csv', 'r')
-reader2000 = csv.DictReader(deaths2000)
+csvfiles = ["deaths2000.csv", "deaths2001.csv", "deaths2002.csv", "deaths2003.csv", "deaths2004.csv", "deaths2005.csv"]
+years = ["2000", "2001", "2002", "2003", "2004", "2005"]
 
-data["2000"] = {}
+for j in range(len(csvfiles)):
+	deaths = open(csvfiles[j], 'r')
+	reader = csv.DictReader(deaths)
 
-counter = 0
+	data[years[j]] = {}
 
-for row in reader2000:
-	counter += 1
-	data["2000"][row["Countries"]] = {}
-	data["2000"][row["Countries"]][diseases[0]] = row[diseases[0]] 
-	for i in range(1, 20):
-		data["2000"][row["Countries"]][diseases[i]] = {}
-		data["2000"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
-	for i in range(21, 33):
-		data["2000"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
-	for i in range(33, 51):
-		data["2000"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
-	for i in range(51, 52):
-		data["2000"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
-	for i in range(52, 54):
-		data["2000"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
-	for i in range(54, 55):
-		data["2000"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
-	for i in range(55, 60):
-		data["2000"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
-	for i in range(60, 63):
-		data["2000"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
-	for i in range(63, 65):
-		data["2000"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
-	for i in range(65, 67):
-		data["2000"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
-	for i in range(67, 70):
-		data["2000"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
-	for i in range(70, 78):
-		data["2000"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
+	for row in reader:
+		data[years[j]][row["Countries"]] = {}
+		data[years[j]][row["Countries"]][diseases[0]] = row[diseases[0]] 
+		for i in range(1, 20):
+			data[years[j]][row["Countries"]][diseases[i]] = {}
+			data[years[j]][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
+		for i in range(21, 33):
+			data[years[j]][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
+		for i in range(33, 51):
+			data[years[j]][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
+		for i in range(51, 52):
+			data[years[j]][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
+		for i in range(52, 54):
+			data[years[j]][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
+		for i in range(54, 55):
+			data[years[j]][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
+		for i in range(55, 60):
+			data[years[j]][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
+		for i in range(60, 63):
+			data[years[j]][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
+		for i in range(63, 65):
+			data[years[j]][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
+		for i in range(65, 67):
+			data[years[j]][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
+		for i in range(67, 70):
+			data[years[j]][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
+		for i in range(70, 78):
+			data[years[j]][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
 
 
-deaths2001 = open('deaths2001.csv', 'r')
-reader2001 = csv.DictReader(deaths2001)
+# deaths2001 = open('deaths2001.csv', 'r')
+# reader2001 = csv.DictReader(deaths2001)
 
-data["2001"] = {}
-
-counter = 0
-
-for row in reader2001:
-	counter += 1
-	data["2001"][row["Countries"]] = {}
-	data["2001"][row["Countries"]][diseases[0]] = row[diseases[0]] 
-	for i in range(1, 20):
-		data["2001"][row["Countries"]][diseases[i]] = {}
-		data["2001"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
-	for i in range(21, 33):
-		data["2001"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
-	for i in range(33, 51):
-		data["2001"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
-	for i in range(51, 52):
-		data["2001"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
-	for i in range(52, 54):
-		data["2001"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
-	for i in range(54, 55):
-		data["2001"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
-	for i in range(55, 60):
-		data["2001"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
-	for i in range(60, 63):
-		data["2001"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
-	for i in range(63, 65):
-		data["2001"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
-	for i in range(65, 67):
-		data["2001"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
-	for i in range(67, 70):
-		data["2001"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
-	for i in range(70, 78):
-		data["2001"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
-
-deaths2002 = open('deaths2002.csv', 'r')
-reader2002 = csv.DictReader(deaths2002)
-
-data["2002"] = {}
-
-counter = 0
-
-for row in reader2002:
-	counter += 1
-	data["2002"][row["Countries"]] = {}
-	data["2002"][row["Countries"]][diseases[0]] = row[diseases[0]] 
-	for i in range(1, 20):
-		data["2002"][row["Countries"]][diseases[i]] = {}
-		data["2002"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
-	for i in range(21, 33):
-		data["2002"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
-	for i in range(33, 51):
-		data["2002"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
-	for i in range(51, 52):
-		data["2002"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
-	for i in range(52, 54):
-		data["2002"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
-	for i in range(54, 55):
-		data["2002"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
-	for i in range(55, 60):
-		data["2002"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
-	for i in range(60, 63):
-		data["2002"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
-	for i in range(63, 65):
-		data["2002"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
-	for i in range(65, 67):
-		data["2002"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
-	for i in range(67, 70):
-		data["2002"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
-	for i in range(70, 78):
-		data["2002"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
-
-# deaths2003 = open('deaths2003.csv', 'r')
-# reader2003 = csv.DictReader(deaths2003)
-
-# data["2003"] = {}
+# data["2001"] = {}
 
 # counter = 0
 
-# for row in reader2003:
+# for row in reader2001:
 # 	counter += 1
-# 	data["2003"][row["Countries"]] = {}
-# 	data["2003"][row["Countries"]][diseases[0]] = row[diseases[0]] 
+# 	data["2001"][row["Countries"]] = {}
+# 	data["2001"][row["Countries"]][diseases[0]] = row[diseases[0]] 
 # 	for i in range(1, 20):
-# 		data["2003"][row["Countries"]][diseases[i]] = {}
-# 		data["2003"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[i]] = {}
+# 		data["2001"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
 # 	for i in range(21, 33):
-# 		data["2003"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
 # 	for i in range(33, 51):
-# 		data["2003"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
 # 	for i in range(51, 52):
-# 		data["2003"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
 # 	for i in range(52, 54):
-# 		data["2003"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
 # 	for i in range(54, 55):
-# 		data["2003"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
 # 	for i in range(55, 60):
-# 		data["2003"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
 # 	for i in range(60, 63):
-# 		data["2003"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
 # 	for i in range(63, 65):
-# 		data["2003"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
 # 	for i in range(65, 67):
-# 		data["2003"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
 # 	for i in range(67, 70):
-# 		data["2003"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
 # 	for i in range(70, 78):
-# 		data["2003"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
+# 		data["2001"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
 
+# deaths2002 = open('deaths2002.csv', 'r')
+# reader2002 = csv.DictReader(deaths2002)
 
-# deaths2004 = open('deaths2004.csv', 'r')
-# reader2004 = csv.DictReader(deaths2004)
-
-# data["2004"] = {}
+# data["2002"] = {}
 
 # counter = 0
 
-# for row in reader2004:
+# for row in reader2002:
 # 	counter += 1
-# 	data["2004"][row["Countries"]] = {}
-# 	data["2004"][row["Countries"]][diseases[0]] = row[diseases[0]] 
+# 	data["2002"][row["Countries"]] = {}
+# 	data["2002"][row["Countries"]][diseases[0]] = row[diseases[0]] 
 # 	for i in range(1, 20):
-# 		data["2004"][row["Countries"]][diseases[i]] = {}
-# 		data["2004"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[i]] = {}
+# 		data["2002"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
 # 	for i in range(21, 33):
-# 		data["2004"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
 # 	for i in range(33, 51):
-# 		data["2004"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
 # 	for i in range(51, 52):
-# 		data["2004"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
 # 	for i in range(52, 54):
-# 		data["2004"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
 # 	for i in range(54, 55):
-# 		data["2004"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
 # 	for i in range(55, 60):
-# 		data["2004"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
 # 	for i in range(60, 63):
-# 		data["2004"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
 # 	for i in range(63, 65):
-# 		data["2004"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
 # 	for i in range(65, 67):
-# 		data["2004"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
 # 	for i in range(67, 70):
-# 		data["2004"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
 # 	for i in range(70, 78):
-# 		data["2004"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
+# 		data["2002"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
+
+# # deaths2003 = open('deaths2003.csv', 'r')
+# # reader2003 = csv.DictReader(deaths2003)
+
+# # data["2003"] = {}
+
+# # counter = 0
+
+# # for row in reader2003:
+# # 	counter += 1
+# # 	data["2003"][row["Countries"]] = {}
+# # 	data["2003"][row["Countries"]][diseases[0]] = row[diseases[0]] 
+# # 	for i in range(1, 20):
+# # 		data["2003"][row["Countries"]][diseases[i]] = {}
+# # 		data["2003"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
+# # 	for i in range(21, 33):
+# # 		data["2003"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(33, 51):
+# # 		data["2003"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(51, 52):
+# # 		data["2003"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(52, 54):
+# # 		data["2003"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(54, 55):
+# # 		data["2003"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(55, 60):
+# # 		data["2003"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(60, 63):
+# # 		data["2003"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(63, 65):
+# # 		data["2003"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(65, 67):
+# # 		data["2003"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(67, 70):
+# # 		data["2003"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(70, 78):
+# # 		data["2003"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
 
 
-# deaths2004 = open('deaths2004.csv', 'r')
-# reader2004 = csv.DictReader(deaths2004)
+# # deaths2004 = open('deaths2004.csv', 'r')
+# # reader2004 = csv.DictReader(deaths2004)
 
-# data["2004"] = {}
+# # data["2004"] = {}
 
-# counter = 0
+# # counter = 0
 
-# for row in reader2004:
-# 	counter += 1
-# 	data["2004"][row["Countries"]] = {}
-# 	data["2004"][row["Countries"]][diseases[0]] = row[diseases[0]] 
-# 	for i in range(1, 20):
-# 		data["2004"][row["Countries"]][diseases[i]] = {}
-# 		data["2004"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
-# 	for i in range(21, 33):
-# 		data["2004"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
-# 	for i in range(33, 51):
-# 		data["2004"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
-# 	for i in range(51, 52):
-# 		data["2004"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
-# 	for i in range(52, 54):
-# 		data["2004"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
-# 	for i in range(54, 55):
-# 		data["2004"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
-# 	for i in range(55, 60):
-# 		data["2004"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
-# 	for i in range(60, 63):
-# 		data["2004"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
-# 	for i in range(63, 65):
-# 		data["2004"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
-# 	for i in range(65, 67):
-# 		data["2004"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
-# 	for i in range(67, 70):
-# 		data["2004"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
-# 	for i in range(70, 78):
-# 		data["2004"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
+# # for row in reader2004:
+# # 	counter += 1
+# # 	data["2004"][row["Countries"]] = {}
+# # 	data["2004"][row["Countries"]][diseases[0]] = row[diseases[0]] 
+# # 	for i in range(1, 20):
+# # 		data["2004"][row["Countries"]][diseases[i]] = {}
+# # 		data["2004"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
+# # 	for i in range(21, 33):
+# # 		data["2004"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(33, 51):
+# # 		data["2004"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(51, 52):
+# # 		data["2004"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(52, 54):
+# # 		data["2004"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(54, 55):
+# # 		data["2004"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(55, 60):
+# # 		data["2004"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(60, 63):
+# # 		data["2004"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(63, 65):
+# # 		data["2004"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(65, 67):
+# # 		data["2004"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(67, 70):
+# # 		data["2004"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(70, 78):
+# # 		data["2004"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
 
 
-# deaths2005 = open('deaths2005.csv', 'r')
-# reader2005 = csv.DictReader(deaths2005)
+# # deaths2004 = open('deaths2004.csv', 'r')
+# # reader2004 = csv.DictReader(deaths2004)
 
-# data["2005"] = {}
+# # data["2004"] = {}
 
-# counter = 0
+# # counter = 0
 
-# for row in reader2005:
-# 	counter += 1
-# 	data["2005"][row["Countries"]] = {}
-# 	data["2005"][row["Countries"]][diseases[0]] = row[diseases[0]] 
-# 	for i in range(1, 20):
-# 		data["2005"][row["Countries"]][diseases[i]] = {}
-# 		data["2005"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
-# 	for i in range(21, 33):
-# 		data["2005"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
-# 	for i in range(33, 51):
-# 		data["2005"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
-# 	for i in range(51, 52):
-# 		data["2005"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
-# 	for i in range(52, 54):
-# 		data["2005"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
-# 	for i in range(54, 55):
-# 		data["2005"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
-# 	for i in range(55, 60):
-# 		data["2005"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
-# 	for i in range(60, 63):
-# 		data["2005"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
-# 	for i in range(63, 65):
-# 		data["2005"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
-# 	for i in range(65, 67):
-# 		data["2005"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
-# 	for i in range(67, 70):
-# 		data["2005"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
-# 	for i in range(70, 78):
-# 		data["2005"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
+# # for row in reader2004:
+# # 	counter += 1
+# # 	data["2004"][row["Countries"]] = {}
+# # 	data["2004"][row["Countries"]][diseases[0]] = row[diseases[0]] 
+# # 	for i in range(1, 20):
+# # 		data["2004"][row["Countries"]][diseases[i]] = {}
+# # 		data["2004"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
+# # 	for i in range(21, 33):
+# # 		data["2004"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(33, 51):
+# # 		data["2004"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(51, 52):
+# # 		data["2004"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(52, 54):
+# # 		data["2004"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(54, 55):
+# # 		data["2004"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(55, 60):
+# # 		data["2004"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(60, 63):
+# # 		data["2004"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(63, 65):
+# # 		data["2004"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(65, 67):
+# # 		data["2004"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(67, 70):
+# # 		data["2004"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(70, 78):
+# # 		data["2004"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
+
+
+# # deaths2005 = open('deaths2005.csv', 'r')
+# # reader2005 = csv.DictReader(deaths2005)
+
+# # data["2005"] = {}
+
+# # counter = 0
+
+# # for row in reader2005:
+# # 	counter += 1
+# # 	data["2005"][row["Countries"]] = {}
+# # 	data["2005"][row["Countries"]][diseases[0]] = row[diseases[0]] 
+# # 	for i in range(1, 20):
+# # 		data["2005"][row["Countries"]][diseases[i]] = {}
+# # 		data["2005"][row["Countries"]][diseases[i]]["Total"] = row[diseases[i]]
+# # 	for i in range(21, 33):
+# # 		data["2005"][row["Countries"]][diseases[1]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(33, 51):
+# # 		data["2005"][row["Countries"]][diseases[2]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(51, 52):
+# # 		data["2005"][row["Countries"]][diseases[3]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(52, 54):
+# # 		data["2005"][row["Countries"]][diseases[4]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(54, 55):
+# # 		data["2005"][row["Countries"]][diseases[5]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(55, 60):
+# # 		data["2005"][row["Countries"]][diseases[9]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(60, 63):
+# # 		data["2005"][row["Countries"]][diseases[10]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(63, 65):
+# # 		data["2005"][row["Countries"]][diseases[11]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(65, 67):
+# # 		data["2005"][row["Countries"]][diseases[14]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(67, 70):
+# # 		data["2005"][row["Countries"]][diseases[15]][diseases[i]] = row[diseases[i]]
+# # 	for i in range(70, 78):
+# # 		data["2005"][row["Countries"]][diseases[19]][diseases[i]] = row[diseases[i]]
 
 
 

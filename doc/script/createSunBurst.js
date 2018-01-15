@@ -7,7 +7,7 @@ This script......*/
 function createSun(diseaseData) {
 	console.log("SUNBURST")
 	
-	sunWidth = width / 3;
+	sunWidth = width / 2.5;
 	sunHeight = height / 2;
 
 	var sunSvg = d3.select(".sunDiv")
