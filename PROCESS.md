@@ -1,7 +1,5 @@
 # day 1
 
-Vandaag heb ik het omzetten van mijn csv files naar json files afgemaakt. Dat ging heel snel want de belangrijkste opzet had ik al. 
-
 Mijn pagina ziet er nu zo uit:
 
 ![](images/day1.png)
