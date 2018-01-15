@@ -3,4 +3,4 @@ Vandaag heb ik het omzetten van mijn csv files naar json files afgemaakt. Dat gi
 
 Verder ben ik begonnen met mijn lijngrafiek. De lijnen zijn er nog niet, de assen wel. Mijn pagina ziet er nu zo uit:
 
-![](images/week1.png)
+![](images/day1.png)
