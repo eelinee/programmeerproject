@@ -19,16 +19,16 @@ function createVisualisation(error, hygieneData) {
 		alert("Could not load data");
 	};
 
-	margin = {top: 20, right: 20, bottom: 30, left: 70}, 
+	margin = {top: 20, right: 20, bottom: 45, left: 70}, 
 
-		width = 1350;
-		height = 600;
+		width = 1500;
+		height = 650;
 
 	d3.select(".parentDiv")
 		.style("width", width)
 
 	currentYear = "2015";
-	currentCountry = "Armenia";
+	currentCountry = "Algeria";
 
 
 	// createScatter(diseaseData, hygieneData, currentCountry, currentYear);

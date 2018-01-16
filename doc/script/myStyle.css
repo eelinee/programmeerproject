@@ -3,7 +3,7 @@ body {
 }
 
 .parentDiv {
-	width: 1400px;
+	width: 1500px;
 	margin-right: auto;
 	margin-left: auto;
 	height: 100%;
@@ -11,21 +11,21 @@ body {
 
 .scatterDiv {
 	width: 840px;
-	height: 600px;
+	height: 650px;
 	float: right;
 	background-color: whitesmoke; 
 }
 
 .graphDiv {
-	width: 560px;
-	height: 300px;
+	width: 660px;
+	height: 325px;
 	float: left;
 	background-color: lightblue;
 }
 
 .sunDiv {
-	width: 560px;
-	height: 300px;
+	width: 660px;
+	height: 325px;
 	float: left;
 	background-color: lightgrey;
 }
@@ -39,6 +39,12 @@ body {
 	shape-rendering: crispEdges;
 }
 
+.axisText {
+	font-size: 15px;
+	font-weight: bold;
+	text-anchor: end;
+}
+
 .imageDiv {
 	width: 100%;
 	margin-left: 10px;
@@ -49,4 +55,13 @@ body {
 
 .imageDiv:hover {
 	opacity: 0.8;
-	/*}*/
+	}
+
+.tick {
+	font-size: 13px;
+}
+
+.graphLine {
+	fill: none;
+	stroke-width: 2px;
+}
