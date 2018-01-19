@@ -5,35 +5,26 @@ Studentnumber: 10811834
 This script......*/
 
 function createGraph(hygieneData) {
-	
-	console.log(hygieneData)
 
-	var legendaMargin = 140
+	var legendaMarginLine = 140
 
 	// determine graphWidth and Height based on width and height
-	graphWidth = width * 0.44 - margin.left - margin.right - legendaMargin;
+	graphWidth = width * 0.44 - margin.left - margin.right - legendaMarginLine;
 	graphHeight = height / 2 - margin.top - margin.bottom;
 
 	// create x scale function. Ordinal, since x- variable is ordinal
 	x = d3.scale.linear()
 		.range([0, graphWidth])
-		.domain([2000, 2015])
-		// .rangeRoundBands([0, graphWidth - 100])
-
-	var x2 = d3.scale.linear()
-		.range([100, 300])
-		.domain([100, 400]);
 
 	// create y scale function. Linear, since y- variable is linear
 	y = d3.scale.linear()
-		.range([0, graphHeight])
-		.domain([100, 0]) // SPECIFIEKER MAKEN
+		.range([0, graphHeight]);
 
 	// select div and create svg with appriopriate width and height
 	var graphSvg = d3.select(".graphDiv")
 		.append("svg")
 		.attr("id", "graphSvg")
-		.attr("width", graphWidth + margin.left + margin.right + legendaMargin)
+		.attr("width", graphWidth + margin.left + margin.right + legendaMarginLine)
 		.attr("height", graphHeight + margin.bottom + margin.top)
 		
 		// append g element with predefined margins
@@ -41,13 +32,20 @@ function createGraph(hygieneData) {
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 	
 	// determine components of current data
-	dataInfo = findMax(hygieneData[currentCountry])
-	max = dataInfo[0]
-	missing = dataInfo[1]
-	keys = dataInfo[2]
+	dataInfo = findInfo(hygieneData[currentCountry])
+	min = dataInfo[0]
+	max = dataInfo[1]
+	missing = dataInfo[2]
+	keys = dataInfo[3]
+
+	yDomainLine = [max, min]
+	xDomainLine = [2000, 2015]
 	
 	// create components of the graph
-	createAxes(graphSvg, hygieneData[currentCountry], x, y, max, missing)
+	var lableText = ["Years", "Percentage of population"]
+	xValue = tickYears
+	yValue = tickPercentage
+	createAxes(graphSvg, hygieneData[currentCountry], x, y, graphHeight, graphWidth, lableText, xDomainLine, yDomainLine, xValue, yValue)
 	createLegenda(graphSvg, keys)
 	lines = {}
 	for(var i = 0; i < keys.length; i ++) {
@@ -55,65 +53,6 @@ function createGraph(hygieneData) {
 	}
 };
 
-function createAxes(graphSvg, currentData, x, y, max, missing) {
-
-	// create xAxis variable with scale x function
-	var xAxis = d3.svg.axis()
-		.scale(x)
-		.orient("bottom")
-		.tickFormat(function(d) {
-
-			// for the years 2000 - 2009, return '01 for example
-			if(d % 2000 < 10) {
-				return "'0" + d % 2000;
-			}
-
-			// for the years 2010 - 2015, just return '10, for example
-			else {
-				return "'" + d % 2000;
-			};
-		});
-
-	// create yAxis variable with scale y function
-	var yAxis = d3.svg.axis()
-		.scale(y)
-		.orient("left")
-
-		// return y-values in percentages using the "%" sign
-		.tickFormat(function(d) {return d + "%"});
-
-	// create lineColors function to fill lines in linegraph
-	lineColors = d3.scale.category10();
-
-	// append g element to contain x-axis
-	graphSvg.append("g")
-		.attr("class", "x axis")
-		.attr("transform", "translate(0," + graphHeight + ")")
-		.call(xAxis)
-
-		// append label with corresponding text
-		.append("text")
-		.attr("class", "axisText")
-		.attr("x", graphWidth)
-		.attr("y", 23)
-		.attr("dy", ".71em")
-		.text("Year");
-
-	// add g element to contain y-axis 
-	graphSvg.append("g")
-		.attr("class", "y axis")
-		.attr("transform", "translate(" + 0 + ", 0)")
-		.call(yAxis)
-
-		// append label with corresponding text
-		.append("text")
-		.attr("class", "axisText")
-		.attr("transform", "rotate(-90)")
-		.attr("x", 0)
-		.attr("y", - margin.left + 5)
-		.attr("dy", ".71em")
-		.text("percentage of population");
-}
 
 function createLines(hygieneData, category, graphSvg) {
 
@@ -151,17 +90,6 @@ function createLegenda(graphSvg, keys) {
 		.attr("width", 20)
 		.attr("height", 20)
 		.style("fill", function(d) {return lineColors(d)})
-
-	// graphSvg.selectAll(".legendaTextbox")
-	// 	.data(keys)
-	// 	.enter().append("rect")
-	// 	.attr("class", "legendaTextbox")
-	// 	.attr("x", graphWidth + 45)
-	// 	.attr("y", function(d, i) {return 5 + 50 * i})
-	// 	.attr("width", 110)
-	// 	.attr("height", 40)
-	// 	.style("stroke", function(d) {return lineColors(d)})
-	// 	.style("fill", "none")
 
 	graphSvg.selectAll(".legendaText1")
 		.data(keys)
@@ -209,10 +137,11 @@ function createLegenda(graphSvg, keys) {
 
 }
 
-function findMax(currentData) {
+function findInfo(currentData) {
 	
 	// initialize variable to store the max value and missing values
 	var max;
+	var min;
 	var missing = {};
 
 	// get the key names in one year (variables are same for each year)
@@ -231,6 +160,9 @@ function findMax(currentData) {
 					// this value is the new maximum
 					max = currentData[i][keys[j]]
 				}
+			if (!min || parseInt(currentData[i][keys[j]]) < min) {
+				min = currentData[i][keys[j]]
+			}
 			if (currentData[i][keys[j]] === "") {
 				if(!missing[keys[j]]) {
 					missing[keys[j]] = []
@@ -241,6 +173,20 @@ function findMax(currentData) {
 		
 	}
 
+	if(parseInt(min) > 10) {
+		min = parseInt(min) - 10
+	}
+	else {
+		min = 0
+	}
+	if(parseInt(max) < 95) {
+		max = parseInt(max) + 5
+	}
+	else {
+		max = 100
+	}
+
 	// console.log(missing)
-	return [max, missing, keys]
+	return [min, max, missing, keys]
 }
+

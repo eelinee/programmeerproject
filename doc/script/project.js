@@ -9,12 +9,13 @@ window.onload = function() {
 
 	// load datasets using a queue
 	d3.queue()
-	// .defer(d3.csv, "sunburstData.json")
+	.defer(d3.json, "sunburstData.json")
 	.defer(d3.json, "linegraphData2.json")
+	.defer(d3.json, "sunburstData50.json")
 	.await(createVisualisation);
 };
 
-function createVisualisation(error, hygieneData) {
+function createVisualisation(error, diseaseData, hygieneData, sunburstData) {
 	if (error) {
 		alert("Could not load data");
 	};
@@ -27,11 +28,14 @@ function createVisualisation(error, hygieneData) {
 	d3.select(".parentDiv")
 		.style("width", width)
 
-	currentYear = "2015";
+	currentYear = "2000";
 	currentCountry = "Algeria";
 
-
-	// createScatter(diseaseData, hygieneData, currentCountry, currentYear);
 	createGraph(hygieneData);
-	// createSun(diseaseData, currentCountry, currentYear);
+
+	d3.queue()
+	.defer(d3.json, "sunburstData.json")
+	createScatter(diseaseData, hygieneData, currentYear);
+	
+	createSun(sunburstData, currentCountry, currentYear);
 };
