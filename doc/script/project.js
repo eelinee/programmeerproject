@@ -28,8 +28,8 @@ function createVisualisation(error, diseaseData, hygieneData, sunburstData) {
 	d3.select(".parentDiv")
 		.style("width", width)
 
-	currentYear = "2000";
-	currentCountry = "Algeria";
+	currentYear = "2012";
+	currentCountry = "Afghanistan";
 
 	createGraph(hygieneData);
 

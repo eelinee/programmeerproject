@@ -1,11 +1,8 @@
-function createAxes(graphSvg, currentData, x, y, height, width, lableText, xDomain, yDomain, xFormat, yFormat) {
+function createAxes(graphSvg, currentData, x, y, height, width, lableText, xDomain, yDomain, xFormat, yFormat, axesId) {
 
 	y.domain(yDomain)
 	x.domain(xDomain)
 
-	console.log(yFormat)
-
-	// console.log(functionUse)
 	// create xAxis variable with scale x function
 	var xAxis = d3.svg.axis()
 		.scale(x)
@@ -26,6 +23,7 @@ function createAxes(graphSvg, currentData, x, y, height, width, lableText, xDoma
 	// append g element to contain x-axis
 	graphSvg.append("g")
 		.attr("class", "x axis")
+		.attr("id", "x" + axesId)
 		.attr("transform", "translate(0," + height + ")")
 		.call(xAxis)
 
@@ -40,6 +38,7 @@ function createAxes(graphSvg, currentData, x, y, height, width, lableText, xDoma
 	// add g element to contain y-axis 
 	graphSvg.append("g")
 		.attr("class", "y axis")
+		.attr("id", "y" + axesId)
 		.attr("transform", "translate(" + 0 + ", 0)")
 		.call(yAxis)
 
@@ -51,19 +50,13 @@ function createAxes(graphSvg, currentData, x, y, height, width, lableText, xDoma
 		.attr("y", - margin.left + 5)
 		.attr("dy", ".71em")
 		.text(lableText[1]);
+
+	return [xAxis, yAxis]
 }
 
 function tickYears(d) {
 
-	// for the years 2000 - 2009, return '01 for example
-	if(d % 2000 < 10) {
-		return "'0" + d % 2000;
-	}
-
-	// for the years 2010 - 2015, just return '10, for example
-	else {
-		return "'" + d % 2000;
-	};
+	return "'" + ("0" + (d - 2000)).slice(-2)
 }
 
 function tickPercentage(d) {

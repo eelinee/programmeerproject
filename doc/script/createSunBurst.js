@@ -5,13 +5,8 @@ Studentnumber: 10811834
 This script......*/
 
 function createSun(sunburstData, currentCountry, currentYear) {
-	console.log("SUNBURST")
-
-	console.log(sunburstData)
-
 	var sunData = sunburstData[2000]["Canada"]
 
-	console.log(sunData)
 
 	var legendaMarginSun = 0;
 	

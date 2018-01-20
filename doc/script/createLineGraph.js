@@ -43,9 +43,7 @@ function createGraph(hygieneData) {
 	
 	// create components of the graph
 	var lableText = ["Years", "Percentage of population"]
-	xValue = tickYears
-	yValue = tickPercentage
-	createAxes(graphSvg, hygieneData[currentCountry], x, y, graphHeight, graphWidth, lableText, xDomainLine, yDomainLine, xValue, yValue)
+	graphAxes = createAxes(graphSvg, hygieneData[currentCountry], x, y, graphHeight, graphWidth, lableText, xDomainLine, yDomainLine, tickYears, tickPercentage, "graph")
 	createLegenda(graphSvg, keys)
 	lines = {}
 	for(var i = 0; i < keys.length; i ++) {
