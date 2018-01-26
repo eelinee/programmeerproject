@@ -11,11 +11,14 @@ window.onload = function() {
 	d3.queue()
 	.defer(d3.json, "sunburstData.json")
 	.defer(d3.json, "linegraphData2.json")
-	.defer(d3.json, "sunburstData50.json")
+	.defer(d3.json, "sunBurstData50.json")
+	.defer(d3.json, "linegraphDataNew.json")
+	.defer(d3.json, "geographics.json")
+	.defer(d3.csv, "totalPopulationRegion.csv")
 	.await(createVisualisation);
 };
 
-function createVisualisation(error, diseaseData, hygieneData, sunburstData) {
+function createVisualisation(error, diseaseData, hygieneData, sunburstData, lijnData, geographics, oud) {
 	if (error) {
 		alert("Could not load data");
 	};
@@ -28,14 +31,14 @@ function createVisualisation(error, diseaseData, hygieneData, sunburstData) {
 	d3.select(".parentDiv")
 		.style("width", width)
 
-	currentYear = "2012";
-	currentCountry = "Afghanistan";
+	currentYear = "2003";
+	currentCountry = "Guatemala";
 
-	createGraph(hygieneData);
+	createGraph(lijnData, currentCountry, currentYear);
 
 	d3.queue()
 	.defer(d3.json, "sunburstData.json")
-	createScatter(diseaseData, hygieneData, currentYear);
+	createScatter(diseaseData, hygieneData, currentYear, currentCountry, sunburstData, lijnData, geographics, oud);
 	
 	createSun(sunburstData, currentCountry, currentYear);
 };

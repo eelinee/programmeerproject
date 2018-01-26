@@ -11,25 +11,43 @@ var scatterAxes;
 var xVariable;
 var yVariable;
 var scatterTip;
+var sunburstData;
+var lijnData;
+var oud;
+var geographics;
+var lijnData;
 
-function createScatter(data1, data2, currentYear) {
+function createScatter(data1, data2, currentYear, currentCountry, sunBurstData, lijndata, geographic, oud) {
 	
+	sunburstData = sunBurstData;
+	geographics = geographic;
+	lijnData = lijndata;
+
 	diseaseData = data1
 	hygieneData = data2
+
+	console.log("NIEUW SUN", sunburstData)
+	console.log("NIEUW LIJN", lijnData)
+
 	year = currentYear
-	console.log(year)
 	xVariable = "External causes of morbidity and mortality"
 	yVariable = "With access to sanitation services"
 
-	var xVariableOptions = ["Certain infectious and parasitic diseases","Neoplasms","Diseases of the circulatory system","Endocrine nutritional and metabolic diseases","Mental and behavioural disorders","Diseases of the nervous system","Diseases of the digestive system", "Diseases of the respiratory system", "Pregnancy childbirth and the puerperium", "External causes of morbidity and mortality"]
-	var yVariableOptions = keys
+	var xVariableOptions = ["Certain infectious and parasitic diseases","Neoplasms","Diseases of the circulatory system","Endocrine nutritional and metabolic diseases","Mental and behavioural disorders","Diseases of the digestive system", "Diseases of the respiratory system", "Pregnancy childbirth and the puerperium", "External causes of morbidity and mortality"]
+	
+	var yVariableOptions = [];
+	var index = yVariableOptions.indexOf("Year")
+
+	for(var i = 0; i < lijnData[currentCountry].length; i ++) {
+		yVariableOptions.push(lijnData[currentCountry][i].Id)
+	}
 
 	yVariableOptions.push("BMI")
 	yVariableOptions.push("Life expectancy")
 
 
 	scatterData = combineData(diseaseData, hygieneData, xVariable, yVariable, year)
-	console.log(scatterData)
+	scatterData2 = combineData2(sunburstData, lijnData, xVariable, yVariable, year, geographics, oud)
 
 	var legendaMarginScatter = 200
 	var bottomMarginScatter = 200
@@ -55,12 +73,12 @@ function createScatter(data1, data2, currentYear) {
 
 	var lableText = ["Deaths per 100 000 population", "Percentage of population"]
 
-	var domainScatter = findDomain(scatterData, xVariable, yVariable)
+	var domainScatter = findDomain(scatterData2, xVariable, yVariable)
 	var xDomainScatter = domainScatter[0]
 	var yDomainScatter = domainScatter[1]
 
-	scatterAxes = createAxes(scatterSvg, scatterData, x, y, scatterHeight, scatterWidth, lableText, xDomainScatter, yDomainScatter, tickInt, tickPercentage, "scatter")
-	createDots(scatterData, scatterSvg, x, y, xVariable, yVariable)
+	scatterAxes = createAxes(scatterSvg, scatterData2, x, y, scatterHeight, scatterWidth, lableText, xDomainScatter, yDomainScatter, tickInt, tickPercentage, "scatter")
+	createDots(scatterData2, scatterSvg, x, y, xVariable, yVariable)
 	createCheckBoxes(xVariableOptions, yVariableOptions, scatterSvg)
 
 };
@@ -69,7 +87,7 @@ function combineData(diseaseData, hygieneData, xVariable, yVariable, year) {
 	
 	newData = []
 
-	useData = Object.values(diseaseData[2005])
+	useData = Object.values(diseaseData[year])
 
 	missingDataTotal = []
 	missingDataHygiene = []
@@ -93,20 +111,12 @@ function combineData(diseaseData, hygieneData, xVariable, yVariable, year) {
 		}
 	};
 
-	// console.log(hygieneData["Bhutan"][2013]["With handwashing facilities at home"])
-
 	for(var i = 0; i < newData.length; i ++) {
 		try {
 			if(hygieneData[newData[i]["Country"]][year][yVariable] == "" ||
 				!hygieneData[newData[i]["Country"]][year][yVariable]) {
-				console.log(newData[i]["Country"])
-				console.log(year)
-				console.log(yVariable)
 				missingDataTotal.push(newData[i]["Country"])
 				missingDataHygiene.push(i)
-				// console.log("deze variabele mist?")
-				console.log(hygieneData[newData[i]["Country"]][year][yVariable])
-				console.log("*****************************************************")
 			}
 			else {
 				newData[i]["yValue"] = +hygieneData[newData[i]["Country"]][year][yVariable]
@@ -116,21 +126,15 @@ function combineData(diseaseData, hygieneData, xVariable, yVariable, year) {
 		catch(err) {
 			missingDataTotal.push(newData[i]["Country"])
 			missingDataHygiene.push(i)
-			// console.log("land mist?")
-			// console.log(newData[i]["Country"])
 		}
 		
 	}
-
-	// console.log(missingDataHygiene)
-	console.log("**************************************************")
-	console.log(hygieneData)
 
 	for(var i = 0; i < missingDataHygiene.length; i ++) {
 		newData.splice(missingDataHygiene[i] - i, 1)
 	}
 
-	console.log(newData)
+	console.log("zo moet het worden", newData)
 	return newData
 
 }
@@ -138,6 +142,7 @@ function combineData(diseaseData, hygieneData, xVariable, yVariable, year) {
 function createDots(scatterData, scatterSvg, x, y, xVariable, yVariable) {
 
 	scatterColors = d3.scale.category20()
+	regionColors = d3.scale.category10()
 
 	scatterTip = d3.tip()
 		.attr("class", "tip")
@@ -145,7 +150,7 @@ function createDots(scatterData, scatterSvg, x, y, xVariable, yVariable) {
 		.html(function(d, i) {
 			return "<p><strong>" + d.Country + "</strong></p><p><text>("
 				+ Math.round(d["xValue"] * 100) / 100 + "," + Math.round(d["yValue"] * 100) / 100
-				+ ") </text></p>"
+				+ ") </text></p><p><text>" + d.Region + "</text></p>" 
 		});
 
 	scatterSvg.call(scatterTip)
@@ -159,7 +164,7 @@ function createDots(scatterData, scatterSvg, x, y, xVariable, yVariable) {
 		.attr("r", 6)
 		.attr("cx", function(d) {return x(d["xValue"])})
 		.attr("cy", function(d) {return y(d["yValue"])})
-		.style("fill", function(d) {return scatterColors(d.Country)})
+		.style("fill", function(d) {return regionColors(d.Region)})
 		.on("mouseover", function(d, i) {
 
 			// on mouseover, show scatterTip containing corresponding values
@@ -186,6 +191,8 @@ function createDots(scatterData, scatterSvg, x, y, xVariable, yVariable) {
 		.on("click", function(d, i) {
 			d3.selectAll(".dot").style("stroke", "none")
 			d3.select(this).style("stroke", "black")
+			updateGraph(this["id"])
+			updateSunburst(this["id"], year)
 		})
 }
 
@@ -351,22 +358,23 @@ function updateScatter(xVariable, yVariable, scatterSvg) {
 	var transition = scatterSvg.transition().duration(750), 
 		delay = function(d, i) {return i * 50};
 
-	newData = combineData(diseaseData, hygieneData, xVariable, yVariable, year)
-
-	domains = findDomain(newData, xVariable, yVariable)
+	newData2 = combineData2(sunburstData, lijnData, xVariable, yVariable, year, geographics, oud)
+	console.log("Using", newData2)
+	domains = findDomain(newData2, xVariable, yVariable)
 	x.domain(domains[0])
 	y.domain(domains[1])
 
 	var dots = scatterSvg.selectAll(".dot")
-		.data(newData);
+		.data(newData2);
 
 	dots.exit().remove();//remove unneeded circles
+	console.log("HALLO")
 	dots.enter().append("circle")
 		.attr("id", function(d) {return d.Country})
 		.attr("class", "dot")
 		.style("stroke-width", "2px")
 		.attr("r", 6)
-		.style("fill", function(d) {return scatterColors(d.Country)})
+		.style("fill", function(d) {return regionColors(d.Region)})
 		.on("mouseover", function(d, i) {
 
 			// on mouseover, show scatterTip containing corresponding values
@@ -393,6 +401,9 @@ function updateScatter(xVariable, yVariable, scatterSvg) {
 		.on("click", function(d, i) {
 			d3.selectAll(".dot").style("stroke", "none")
 			d3.select(this).style("stroke", "black")
+			updateGraph(this["id"])
+			updateSunburst(this["id"], year)
+
 		});
 
 	dots.transition()
@@ -411,4 +422,116 @@ function updateScatter(xVariable, yVariable, scatterSvg) {
 		.transition()
 		.duration(500)
 		.call(scatterAxes[1]);
+}
+
+function combineData2(sunburstData, lijnData, xVariable, yVariable, year, geographics, oud) {
+
+	console.log(geographics)
+	console.log(sunburstData)
+	var newData2 = []
+	var ziektesGebruiken = sunburstData[year]
+	var counter = 0
+	var landen = Object.keys(sunburstData[year])
+	console.log(landen)
+	var missendeData = []
+	var missingHygiene = []
+
+
+	for(var i = 0; i < landen.length; i ++) {
+		try {
+			if(geographics[landen[i]][year].trim() != "") {
+				newData2[counter] = {}
+				newData2[counter]["Country"] = landen[i]
+				newData2[counter]["xVariable"] = xVariable
+				newData2[counter]["yVariable"] = yVariable
+				xSize = findDiseaseValue(ziektesGebruiken[landen[i]], xVariable)
+				newData2[counter]["xValue"] = xSize / +geographics[landen[i]][year] * 100000
+				newData2[counter]["Region"] = geographics[landen[i]].Region
+				counter += 1
+			}
+		}
+		catch(err) {
+			console.log("Disease", landen[i])
+			missendeData.push(landen[i])
+		}
+		
+	}
+
+	for(var i = 0; i < newData2.length; i ++) {
+		if(lijnData[newData2[i]["Country"]]) {
+			ySize = findYValue(lijnData[newData2[i]["Country"]], yVariable, year)
+			if(ySize) {
+				newData2[i]["yValue"] = ySize
+				console.log("hallo", ySize)
+			}
+			else {
+				missingHygiene.push(i)
+				missendeData.push(landen[i])
+			}
+			
+			
+		}
+		else {
+			missingHygiene.push(i)
+			missendeData.push(landen[i])
+		}
+	}
+
+	// remove all arrays of countries with missing y-value
+
+	for(var i = 0; i < missingHygiene.length; i ++) {
+		newData2.splice(missingHygiene[i] - i, 1)
+	}
+
+	return newData2
+
+}
+
+function findDiseaseValue(dataGebruiken, xVariable) {
+
+	var root;
+	var size = 0;
+
+	for(var i = 0; i < dataGebruiken["children"].length; i ++) {
+		if(dataGebruiken["children"][i]["name"] == xVariable) {
+			root = dataGebruiken["children"][i];
+			break;
+		}
+	}
+
+
+	for(var i = 0; i < root["children"].length; i ++) {
+		size += root["children"][i]["size"]
+	}
+
+	return size
+}
+
+function findYValue(dataGebruiken, yVariable, year) {
+
+	var root;
+	var size;
+
+	console.log(dataGebruiken)
+
+	try {
+		for(var i = 0; i < dataGebruiken.length; i ++) {
+			if(dataGebruiken[i].Id == yVariable) {
+				root = dataGebruiken[i]
+				break;
+			}
+		}
+
+		for(var i = 0; i < root.Values.length; i ++) {
+			if(root.Values[i].Year == +year) {
+				size = +root.Values[i].Value
+			}
+		}
+	}
+
+	catch(err) {
+
+	}
+
+	return size
 }

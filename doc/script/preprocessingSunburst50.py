@@ -21,45 +21,45 @@ for j in range(len(csvfiles)):
 
 	for row in reader:
 		if row["Total"] != "" and row["Total"] != " ":
-			data[years[j]][row["Countries"]] = {};
+			data[years[j]][row["Countries"]] = {"name": "All deaths", "children": []};
 			#data[years[j]][row[i]] = {} #, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
 			for i in range(0,19):
-				data[years[j]][row["Countries"]][i] = {}
-				data[years[j]][row["Countries"]][i]["name"] = diseases[i + 1]
-				data[years[j]][row["Countries"]][i]["children"] = []
+				data[years[j]][row["Countries"]]["children"].append({})
+				data[years[j]][row["Countries"]]["children"][i]["name"] = diseases[i + 1]
+				data[years[j]][row["Countries"]]["children"][i]["children"] = []
 			for i in range(21,33):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][0]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][0]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(33, 51):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][1]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][1]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(51, 52):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][2]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][2]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(52, 54):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][3]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][3]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(54, 55):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][4]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][4]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(55, 60):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][8]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][8]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(60, 63):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][9]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][9]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(63, 65):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][10]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][10]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(65, 67):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][13]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][13]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(67, 70):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][14]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][14]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 			for i in range(70, 78):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
-					data[years[j]][row["Countries"]][18]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
+					data[years[j]][row["Countries"]]["children"][18]["children"].append({"name": diseases[i], "size": int(row[diseases[i]])})
 
 	# print(populationReader)
 

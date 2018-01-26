@@ -75,3 +75,12 @@ body {
 	font-size: 13px;
 	text-anchor: middle;
 }
+
+.sunPath {
+    stroke: #fff;
+  }
+
+.line {
+	fill: none;
+	stroke-width: 2px;
+}
