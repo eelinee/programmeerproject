@@ -41,7 +41,6 @@ function createGraph(hygieneData, currentCountry, currentYear) {
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
 	currentDataGraph = lineGraphData[currentCountry]
-	console.log(lineGraphData)
 
 	xDomainGraph = [2000, 2015]
 	yDomainGraph = [100, 60]

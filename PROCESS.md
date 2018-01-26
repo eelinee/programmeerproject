@@ -176,6 +176,11 @@ voor eerdere beslissing hierover). Dit heb ik gedaan omdat ik denk dat het toch
 toevoeging heeft als je ziet van waar tot waar de as loopt, dit geeft ook al 
 erg veel inzicht. Ook kun je de lijnen beter zien als het domein wat kleiner is.
 
+### Moeilijkheden
+
+Tot nu toe liep ik erg vast als ik wilde beginnen aan de sunburst. Dus ik 
+verwacht dat hier nog aardig wat tijd in gaat zitten.
+
 ### Maandag
 
 Maandag ga ik:
@@ -196,4 +201,140 @@ Moeilijk hiermee was wel dat in een dropdown menu de opties niet op meerdere
 regels weergegeven kunnen worden. Dat wordt in het geval van de y-as dus wel 
 erg lastig. Maar misschien dat ik dan alleen één woord kan opschrijven en dan 
 gebruik kan maken van een tooltip.
+
+# Dag 6
+
+### Moeilijkheden
+
+- Vandaag kwam ik erachter dat de dataset waarmee ik mijn lijngrafiek maakte 
+heel onhandig was om te gebruiken bij het updaten. Ik ben veel tijd verloren 
+met het proberen deze dataset toch te gebruiken maar het was echt erg onhandig. 
+Ik had namelijk de data alleen opgedeeld in landen en jaren en niet op 
+categorie. De categorie was gewoon één van de keys binnen een jaar. En omdat ik 
+per categorie een lijn wil maken, moet ik steeds een nieuwe lijnfunctie 
+aanmaken wilde ik steeds een andere categorie selecteren. 
+
+### Belangrijke beslissingen
+
+- Om het probleem van de dataset (hierboven beschreven) op te lossen heb ik 
+besloten om mijn dataset opnieuw in te delen, dus op land, categorie en dan pas 
+jaar. Dus binnen land 4 categorieën (of soms 3) en dan binnen zo'n categorie 
+de naam van de categorie en een array met jaartallen en values.
+
+### Morgen
+
+Morgen ga ik:
+- De data voor mijn scatterplot omschrijven
+- De lijngrafiek opnieuw maken
+- De lijngrafiek update functie maken
+- De tooltip voor de lijngrafiek maken
+
+# Dag 7 
+
+**Figuur 7.1. Mijn pagina ziet er nu zou uit:**
+
+![](images/day7.png)
+
+### Wat heb ik gedaan?
+
+Vandaag heb ik de data van mijn lijngrafiek herschreven, de lijngrafiek gemaakt 
+en de update functie van de lijngrafiek werkend gemaakt. Ook heb ik de data van 
+mijn sunburst herschreven en de sunburst gemaakt.
+
+### Belangrijke beslissingen
+
+- Ik ga toch het y.domein van mijn lijngrafiek niet steeds updaten, maar gewoon 
+een standaard minimum gebruiken van 60. Omdat het anders toch erg moeilijk was 
+om de verschillende landen met elkaar te kunnen vergelijken.
+- Met het aanpassen van de data heb ik gelijk de variabele "Percentage of 
+population that practices open defecation" veranderd naar "Percentage of 
+population that does not practice open defecation." Dit heb ik gedaan omdat bij 
+de andere drie variabelen een stijging in het aantal percentage beter was dan 
+een daling. Ik wilde graag dat dat in dit geval ook zo is omdat je dan nog 
+beter kan vergelijken.
+
+### Moeilijkheden
+
+- Het omschrijven van de lijngrafiek is gelukt, maar er is wel één probleem. 
+Ik heb ook de data van de sunburst omgeschreven omdat dit ook handiger bleek 
+te zijn voor het maken van de sunburst. Maar het probleem is dat ik de 
+scatterplot al eerder heb gemaakt en ik in de combinefunctie van mijn 
+scatterplot gebruik maak van de data van de lijngrafiek én van de data van de 
+sunburst. Nu gebruik ik dus nog de oude datasets, maar dit is eigenlijk super 
+onhandig want op deze manier laadt ik alles dubbel in maar in een ander format. 
+- Verder is er een probleem met de sunburst. Ik heb hem eerst in een hele 
+aparte html gezet, zodat ik kon kijken of alles goed ging met de data etc en ik 
+zeker wist dat ik verder niks kapot zou maken van mijn andere visualisaties. 
+Dat ging allemaal goed, maar toen ik hem daarna in de svg voor de sunburst bij 
+mijn andere visualisaties zette, deed de zoomfunctie het niet meer goed. Elke 
+keer als ik nu op een categorie druk om in te zoomen, klapt hij als het ware in 
+en is er niet meer te zien dan een lijntje. Als ik bij 'elements' kijk, dan 
+staat er ook dat elk deel een afmeting van '0 x iets' heeft gekregen. 
+
+### Morgen
+
+- Morgen wil ik er proberen achter te komen waarom mijn sunburst zo raar doet 
+en dit oplossen.
+- Ook wil ik de combine functie van de scatterplot zo omschrijven dat ik de 
+twee oude datasets van sunburst en lijngrafiek niet meer apart hoef in te laden. 
+- Verder wil ik de tooltip van de lijngrafiek gaan maken (hier was ik nog niet 
+aan toegekomen vandaag)
+
+# Dag 8
+
+**Figuur 8.1: Zo ziet mijn pagina er nu uit:**
+
+![](images/day8.png)
+
+### Wat heb ik gedaan?
+
+Het probleem van de sunburst is opgelost!! Er stond ergens één komma fout. 
+Verder heb ik de tooltip van de lijngrafiek afgemaakt.
+
+### Belangrijke beslissingen
+
+-Ik heb besloten om de tooltip ook te laten staan als de muis niet op het 
+scherm is, zodat de tooltip aangeeft welk jaar het huidige jaar is. Dus heeft 
+de gebruiker het jaar 2003 gekozen, dan geeft de tooltip de data aan voor het 
+jaar 2003 (zie figuur 8.1).
+
+### Morgen
+
+- Morgen ga ik de data van de scatterplot herschrijven (wat ik eerder al van 
+plan was maar het kwam er steeds niet van). 
+	- Ik ga dan ook BMI, life expectancy en werelddeel toevoegen zodat ik de 
+	kleur van de dots kan indelen op werelddeel!
+
+# Dag 9
+
+**Figuur 9.1: Zo ziet mijn pagina er nu uit:**
+
+![](images/day9.png)
+
+### Wat heb ik gedaan?
+
+De data van de scatterplot is nu ook helemaal omgezet. Ik heb de werelddelen 
+toegevoegd, maar nog geen legenda zoals je ziet in figuur 9.1. Ook heb ik de 
+update functie van de sunburst gemaakt. 
+
+### Belangrijke beslissingen
+
+- Ik ga life expectancy en BMI alleen nog toevoegen als ik genoeg tijd heb. Dit 
+is geen onderdeel van mijn MVP, maar het lijkt me wel nog steeds erg leuk dus 
+hopelijk kom ik er wel aan toe.
+- In de werkgroep heb ik als tip gekregen om een searchbalk van bootstrap toe 
+te voegen waardoor je kan selecteren op land en dan een land kan aanklikken 
+zodat de lijngrafiek en de sunburst worden geupdate. Dat ga ik dus nog doen.
+
+### Moeilijkheden
+
+- Ik kwam er net achter dat na het updaten van de sunburst, de verhoudingen van 
+de categorieën niet meer kloppen. De data op de tooltip klopt wel, maar de 
+grootte van elk balkje nog niet. Dat zal dus iets zijn in mijn updatefunctie 
+maar daar moet ik nog even naar kijken
+- Ik heb nog geen timeslider gemaakt en dat moet ik wel hebben voor mijn MVP!!! 
+Dus dat moet ik nog snel gaan doen!
+
+### Morgen
+
 

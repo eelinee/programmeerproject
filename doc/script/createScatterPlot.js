@@ -38,9 +38,11 @@ function createScatter(data1, data2, currentYear, currentCountry, sunBurstData, 
 	var yVariableOptions = [];
 	var index = yVariableOptions.indexOf("Year")
 
-	for(var i = 0; i < lijnData[currentCountry].length; i ++) {
-		yVariableOptions.push(lijnData[currentCountry][i].Id)
-	}
+	yVariableOptions = ["With access to drinking water", "With access to sanitation services", "That practices open defecation", "With handwashing facilities at home"]
+
+	// for(var i = 0; i < lijnData[currentCountry].length; i ++) {
+	// 	yVariableOptions.push(lijnData[currentCountry][i].Id)
+	// }
 
 	yVariableOptions.push("BMI")
 	yVariableOptions.push("Life expectancy")
@@ -164,7 +166,7 @@ function createDots(scatterData, scatterSvg, x, y, xVariable, yVariable) {
 		.attr("r", 6)
 		.attr("cx", function(d) {return x(d["xValue"])})
 		.attr("cy", function(d) {return y(d["yValue"])})
-		.style("fill", function(d) {return regionColors(d.Region)})
+		.style("fill", function(d) {return scatterColors(d.Country)})
 		.on("mouseover", function(d, i) {
 
 			// on mouseover, show scatterTip containing corresponding values
@@ -374,7 +376,7 @@ function updateScatter(xVariable, yVariable, scatterSvg) {
 		.attr("class", "dot")
 		.style("stroke-width", "2px")
 		.attr("r", 6)
-		.style("fill", function(d) {return regionColors(d.Region)})
+		.style("fill", function(d) {return scatterColors(d.Country)})
 		.on("mouseover", function(d, i) {
 
 			// on mouseover, show scatterTip containing corresponding values
