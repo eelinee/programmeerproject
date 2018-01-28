@@ -8,8 +8,8 @@ diseases = ["Total","Certain infectious and parasitic diseases","Neoplasms","Dis
 
 jsonfile = open('sunBurstData50.json', 'w')
 
-csvfiles = ["deaths2000.csv", "deaths2001.csv", "deaths2002.csv", "deaths2003.csv", "deaths2004.csv", "deaths2005.csv"]
-years = ["2000", "2001", "2002", "2003", "2004", "2005"]
+csvfiles = ["deaths2000.csv", "deaths2001.csv", "deaths2002.csv", "deaths2003.csv", "deaths2004.csv", "deaths2005.csv", "deaths2006.csv", "deaths2007.csv", "deaths2008.csv", "deaths2009.csv", "deaths2010.csv", "deaths2011.csv", "deaths2012.csv", "deaths2013.csv", "deaths2014.csv", "deaths2015.csv"]
+years = ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015"]
 population = open("totalPopulation.csv", "r")
 populationReader = list(csv.DictReader(population))
 

@@ -4,6 +4,9 @@ Studentnumber: 10811834
 'project.js'
 This script......*/
 
+var currentYear;
+var currentCountry;
+
 
 window.onload = function() {
 
@@ -31,14 +34,25 @@ function createVisualisation(error, diseaseData, hygieneData, sunburstData, lijn
 	d3.select(".parentDiv")
 		.style("width", width)
 
-	currentYear = "2003";
-	currentCountry = "Guatemala";
+	currentYear = "2014";
+	currentCountry = "Suriname";
 
-	createGraph(lijnData, currentCountry, currentYear);
+	createGraph(lijnData);
 
-	d3.queue()
-	.defer(d3.json, "sunburstData.json")
-	createScatter(diseaseData, hygieneData, currentYear, currentCountry, sunburstData, lijnData, geographics, oud);
+	createScatter(sunburstData, lijnData, geographics, oud);
 	
-	createSun(sunburstData, currentCountry, currentYear);
+	createSun(sunburstData, currentCountry);
+
+	// when the input range changes update the circle 
+	d3.select("#myRange").on("input", function() {
+		currentYear = +this.value;
+  		updateVisualisations();
+	});
+
 };
+
+function updateVisualisations() {
+	updateSunburst(currentCountry, currentYear)
+	handleMouseMove([xGraph(currentYear), 0], mouseG)
+	updateScatter(xVariable, yVariable, scatterSvg, currentYear)
+}

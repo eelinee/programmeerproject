@@ -66,3 +66,12 @@ function tickPercentage(d) {
 function tickInt(d) {
 	return d
 }
+
+function showMissingData(country, year, svg) {
+	
+	svg.select(".missingDataText").remove()
+
+	svg.append("text")
+		.attr("class", "missingDataText")
+		.text("No data available for " + country + " in " + year)
+}

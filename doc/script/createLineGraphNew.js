@@ -11,8 +11,9 @@ var graphAxes;
 var colorsGraph;
 var currentDataGraph;
 var mouseG;
+var xGraph;
 
-function createGraph(hygieneData, currentCountry, currentYear) {
+function createGraph(hygieneData) {
 	lineGraphData = hygieneData
 
 	var legendaMarginGraph = 140;
@@ -56,20 +57,16 @@ function createGraph(hygieneData, currentCountry, currentYear) {
 
 	colorsGraph = d3.scale.category10();
 
-	graphSvg.selectAll(".line")
-		.data(currentDataGraph)
-		.enter().append("path")
-		.attr("class", "line")
-		.style("stroke", function(d) {return colorsGraph(d.Id)})
-
 	createLegenda(graphSvg, currentDataGraph);
-	createInteractivityGraph(graphSvg, currentDataGraph, currentYear);
+	createInteractivityGraph(graphSvg, currentDataGraph);
 	updateGraph(currentCountry);
 
 }
 
 function updateGraph(clickedCountry) {
 	currentDataGraph = lineGraphData[clickedCountry]
+	console.log(clickedCountry)
+	console.log(currentDataGraph)
 
 	for(var i = 0; i < currentDataGraph.length; i ++) {
 		if(!currentDataGraph[i]["Values"]) {
@@ -135,15 +132,20 @@ function createLegenda(graphSvg, currentDataGraph) {
 		.attr("width", 110)
 		.attr("height", 20)
 		.text(function(d) {
-			var words = d.Id.split(" ")
-			if(words[2] != "facilities") {
-				words = words.splice(0, 3)
+			try {
+				var words = d.Id.split(" ")
+				if(words[2] != "facilities") {
+					words = words.splice(0, 3)
+				}
+				else {
+					words = words.splice(0, 2)
+				}
+				words = words.join(" ")
+				return words
 			}
-			else {
-				words = words.splice(0, 2)
+			catch(err) {
+
 			}
-			words = words.join(" ")
-			return words
 		})
 		.style("text-anchor", "start")
 		.style("font-size", 12)
@@ -157,30 +159,33 @@ function createLegenda(graphSvg, currentDataGraph) {
 		.attr("width", 110)
 		.attr("height", 20)
 		.text(function(d) {
-			var words = d.Id.split(" ")
-			if(words[2] != "facilities") {
-				words = words.splice(3)
+			try {
+				var words = d.Id.split(" ")
+				if(words[2] != "facilities") {
+					words = words.splice(3)
+				}
+				else {
+					words = words.splice(2)
+				}
+				words = words.join(" ")
+				return words
 			}
-			else {
-				words = words.splice(2)
+			catch(err) {
+
 			}
-			words = words.join(" ")
-			return words
 		})
 		.style("text-anchor", "start")
 		.style("font-size", 12)
 
 }
 
-function createInteractivityGraph(graphSvg, currentDataGraph, currentYear) {
+function createInteractivityGraph(graphSvg, currentDataGraph) {
 
 	mouseG = graphSvg.append("g")
 		.attr("class", "mouseG")
 
 	mouseG.append("line")
 		.attr("class", "mouseLine")
-		// .attr("x1", xGraph(currentYear))
-		// .attr("x2", xGraph(currentYear))
 		.attr("y1", 0)
 		.attr("y2", graphHeight)
 		.style("stroke", "black")
@@ -257,7 +262,11 @@ function handleMouseMove(coordinates, mouseG) {
 		})
 	if(currentDataGraph.length < 4) {
 		mouseG.select("#mousePerLine3")
-			.attr("cy", 2000)
+			.style("opacity", 0)
+	}
+	else {
+		mouseG.select("#mousePerLine3")
+			.style("opacity", 1)
 	}
 }
 
