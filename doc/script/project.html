@@ -11,12 +11,15 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 		<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0
 			.6.3.js"></script>
 		<script src = "createAxes.js"></script>
 		<script src = "createLineGraphNew.js"></script>
 		<script src = "createScatterPlot.js"></script>
 		<script src = "createSunBurst.js"></script>
+		<script src = "createTitle.js"></script>
 		<script src = "project.js"></script>
 		<script src = "https://d3js.org/d3-queue.v3.min.js"></script>
 		<link rel = "stylesheet" type="text/css" href="myStyle.css">
@@ -32,21 +35,16 @@
 			</div>
 		</nav>
 		<div class = "parentDiv">
-			<div class="slidecontainer">
-  				<input type="range" min="2000" max="2015" value="2014" class="slider" id="myRange">
-			</div>
 			<div class = "scatterDiv">
-				<!-- <div id = "x-options">
-					<p><font>y-axis variable:</font></p>
-					<p>
-						<select type = "select" onchange = "updateXvariable(value);" onmousemove="showIETooltip();" onmouseout="hideIETooltip();">
-						<option value = "With access to sanitation services" name = "Percentage of population with access to sanitation services" selected = "true">Sanitation services</option>
-						<option value = "With access to drinking water" name = "Percentage of population with access to drinking water">Drinking water</option>
-					</select>
-					</p>
-				</div> -->
+				<div class="slidecontainer">
+  					<input type="range" min="2000" max="2015" value="2014" class="slider" id="myRange">
+				</div>
+				<div class = "selectContainer">
+					<select class = "countrySelector" data-live-search="true"></select>
+				</div>
 			</div>
 			<div class = "graphDiv"></div>
+			<div class = "titleDiv"></div>
 			<div class = "sunDiv"></div>
 	</body>
 </html>

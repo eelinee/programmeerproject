@@ -47,7 +47,7 @@ for i in range(0, 4):
 				data[row["Country"]][i]["Values"].append({})
 				data[row["Country"]][i]["Values"][len(data[row["Country"]][i]["Values"]) - 1]["Year"] = j
 				if(i == 2):
-					data[row["Country"]][i]["Values"][len(data[row["Country"]][i]["Values"]) - 1]["Value"] = str(100 - float(row[str(j)]))
+					data[row["Country"]][i]["Values"][len(data[row["Country"]][i]["Values"]) - 1]["Value"] = str(int(100 - float(row[str(j)])))
 				
 				else:
 					data[row["Country"]][i]["Values"][len(data[row["Country"]][i]["Values"]) - 1]["Value"] = row[str(j)]

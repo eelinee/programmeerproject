@@ -20,7 +20,7 @@ function createGraph(hygieneData) {
 
 	// determine graphWidth and Height based on width and height
 	graphWidth = width * 0.44 - margin.left - margin.right - legendaMarginGraph;
-	graphHeight = height / 2 - margin.top - margin.bottom;
+	graphHeight = height * 0.4 - margin.top - margin.bottom;
 
 	// create x scale function. Ordinal, since x- variable is ordinal
 	xGraph = d3.scale.linear()
@@ -60,6 +60,7 @@ function createGraph(hygieneData) {
 	createLegenda(graphSvg, currentDataGraph);
 	createInteractivityGraph(graphSvg, currentDataGraph);
 	updateGraph(currentCountry);
+	updateTitle(true);
 
 }
 
@@ -97,9 +98,6 @@ function updateGraph(clickedCountry) {
 	lines.enter().append("path")
 		.attr("class", "line")
 		.style("stroke", function(d) {return colorsGraph(d.Id)})
-
-	// var transition = graphSvg.transition().duration(100000000), 
-	// 	delay = function(d, i) {return i * 50};
 
 	lines.transition()
 		.duration(1000)
@@ -251,6 +249,7 @@ function handleMouseMove(coordinates, mouseG) {
 			}
 			return yGraph(+closest.Value)
 		})
+		.attr("dy", "0.65em")
 		.text(function(d) {
 			closest = findClosestGraph(d, xGraph, coordinates)
 			try {

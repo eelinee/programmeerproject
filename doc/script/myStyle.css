@@ -11,28 +11,35 @@ body {
 
 .scatterDiv {
 	width: 840px;
-	height: 650px;
+	height: 700px;
 	float: right;
-	background-color: whitesmoke; 
+	background-color: lightgrey; 
 }
 
 .graphDiv {
 	width: 660px;
-	height: 325px;
+	height: 280px;
+	float: left;
+	background-color: white;
+}
+
+.missingDataText {
+	font-size: 30px;
+	text-anchor: end;
+}
+
+.titleDiv {
+	width: 660px;
+	height: 70px;
 	float: left;
 	background-color: lightblue;
 }
-/*
-#x-options {
-	float: right;
-	width: 200px;
-}*/
 
 .sunDiv {
 	width: 660px;
-	height: 325px;
+	height: 350px;
 	float: left;
-	background-color: lightgrey;
+	background-color: whitesmoke;
 }
 
 .axis path,
@@ -83,6 +90,17 @@ body {
 .line {
 	fill: none;
 	stroke-width: 2px;
+}
+
+.titleVis {
+	position: relative;
+	top: 0%;
+	left: 0%;
+}
+
+.selectContainer {
+	width: 50px;
+	height: 20px;
 }
 
 /*.slider {

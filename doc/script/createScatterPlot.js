@@ -72,6 +72,9 @@ function createScatter(sunBurstData, lijndata, geographic, oud) {
 
 	scatterAxes = createAxes(scatterSvg, scatterData2, x, y, scatterHeight, scatterWidth, lableText, xDomainScatter, yDomainScatter, tickInt, tickPercentage, "scatter")
 	
+
+	createCountrySelector(scatterSvg, lijnData)
+
 	// createDots(scatterData2, scatterSvg, x, y, xVariable, yVariable)
 	createCheckBoxes(xVariableOptions, yVariableOptions, scatterSvg)
 
@@ -282,9 +285,44 @@ function createCheckBoxes(xVariables, yVariables, scatterSvg) {
 		.style("fill", "steelblue")
 }
 
+function createCountrySelector(scatterSvg, lijnData) {
+
+	scatterDiv = d3.select(".scatterDiv")
+
+	var countrySelector = scatterDiv.select(".countrySelector")
+		.on("change", onchangeSelector)
+
+	var options = Object.keys(lijnData)
+	// console.log(options)
+	options.sort()
+	console.log(options)
+
+	countrySelector.selectAll("option")
+		.data(options)
+		.enter().append("option")
+			.text(function(d) {return d})
+}
+
+function onchangeSelector() {
+	selectValue = d3.select('select').property('value')
+	currentCountry = selectValue
+	d3.selectAll(".dot").style("stroke", "none")
+	d3.select("#" + currentCountry).style("stroke", "black")
+	updateGraph(currentCountry)
+	updateSunburst(currentCountry, currentYear)
+	
+};
+
 function updateScatter(xVariable, yVariable, scatterSvg, currentYear) {
 
-	regionColors = d3.scale.category10()
+	var regionOptions = ["Europe", "South America", "Northern America", "Middle America", "Asia", "Middle East", "Oceania", "The Caribbean", "Central America", "Africa"]
+	var regionColorOptions = ["#3cb44b", "#e6194b", "#d2f53c", "#0082c8", "#f58231", "#008080", "#fabebe", "#911eb4", "#0082c8", "#800000"]
+	var regionColors = d3.scale.ordinal()
+		.domain(regionOptions)
+		.range(regionColorOptions)
+
+
+	console.log(regionColors("Europe"))
 
 	scatterTip = d3.tip()
 		.attr("class", "tip")
@@ -292,7 +330,7 @@ function updateScatter(xVariable, yVariable, scatterSvg, currentYear) {
 		.html(function(d, i) {
 			return "<p><strong>" + d.Country + "</strong></p><p><text>("
 				+ Math.round(d["xValue"] * 100) / 100 + "," + Math.round(d["yValue"] * 100) / 100
-				+ ") </text></p><p><text>" + d.Region + "</text></p>" 
+				+ ") </text></p>" 
 		});
 
 	scatterSvg.call(scatterTip)
@@ -344,6 +382,7 @@ function updateScatter(xVariable, yVariable, scatterSvg, currentYear) {
 		.on("click", function(d, i) {
 			d3.selectAll(".dot").style("stroke", "none")
 			d3.select(this).style("stroke", "black")
+			d3.select('select').property('value', d.Country)
 			currentCountry = d.Country
 			updateGraph(currentCountry)
 			updateSunburst(currentCountry, currentYear)

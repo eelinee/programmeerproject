@@ -72,6 +72,7 @@ function showMissingData(country, year, svg) {
 	svg.select(".missingDataText").remove()
 
 	svg.append("text")
+		.attr("x", 40)
 		.attr("class", "missingDataText")
 		.text("No data available for " + country + " in " + year)
 }
