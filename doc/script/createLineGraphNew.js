@@ -66,8 +66,6 @@ function createGraph(hygieneData) {
 
 function updateGraph(clickedCountry) {
 	currentDataGraph = lineGraphData[clickedCountry]
-	console.log(clickedCountry)
-	console.log(currentDataGraph)
 
 	for(var i = 0; i < currentDataGraph.length; i ++) {
 		if(!currentDataGraph[i]["Values"]) {

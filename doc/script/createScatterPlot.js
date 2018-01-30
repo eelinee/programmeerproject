@@ -10,12 +10,11 @@ var yVariable;
 // var scatterTip;
 var sunburstData;
 var lijnData;
-var oud;
 var geographics;
 var lijnData;
 var scatterSvg;
 
-function createScatter(sunBurstData, lijndata, geographic, oud) {
+function createScatter(sunBurstData, lijndata, geographic) {
 	
 	sunburstData = sunBurstData;
 	geographics = geographic;
@@ -40,7 +39,7 @@ function createScatter(sunBurstData, lijndata, geographic, oud) {
 	yVariableOptions.push("BMI")
 	yVariableOptions.push("Life expectancy")
 
-	scatterData2 = combineData2(sunburstData, lijnData, xVariable, yVariable, currentYear, geographics, oud)
+	scatterData2 = combineData2(sunburstData, lijnData, xVariable, yVariable, currentYear, geographics)
 
 	var legendaMarginScatter = 200
 	var bottomMarginScatter = 200
@@ -180,7 +179,7 @@ function createCheckBoxes(xVariables, yVariables, scatterSvg) {
 	scatterSvg.append("text")
 		.attr("class", "checkBoxTitle")
 		.attr("x", scatterWidth + 125)
-		.attr("y", 25)
+		.attr("y", 0)
 		.text("y-axis variable")
 		.style("font-size", 15)
 		.style("font-weight", "bold")
@@ -193,7 +192,7 @@ function createCheckBoxes(xVariables, yVariables, scatterSvg) {
 		.attr("class", "yCheckBox")
 		.attr("id", function(d, i) {return "yCheckBox" + i})
 		.attr("x", scatterWidth + 50)
-		.attr("y", function(d, i) {return 45 + 55 * i})
+		.attr("y", function(d, i) {return 20 + 55 * i})
 		.attr("width", 150)
 		.attr("height", 50)
 		.style("fill", "whitesmoke")
@@ -216,14 +215,8 @@ function createCheckBoxes(xVariables, yVariables, scatterSvg) {
 		.attr("class", "yCheckText")
 		.attr("id", "yCheckText1")
 		.attr("x", scatterWidth + 125)
-		.attr("y", function(d, i) {return 65 + 55 * i})
-		.text(function(d) {
-
-			// show variable names until the third word
-			var words = d.split(" ")
-			words = words.splice(0, 2)
-			return words.join(" ")
-		})
+		.attr("y", function(d, i) {return 43 + 55 * i})
+		.text(function(d) { return wrapText(d, 3)[0]})
 
 	// add remaining words of variable names to checkboxes
 	scatterSvg.selectAll("#yCheckText2")
@@ -232,14 +225,8 @@ function createCheckBoxes(xVariables, yVariables, scatterSvg) {
 		.attr("class", "yCheckText")
 		.attr("id", "yCheckText2")
 		.attr("x", scatterWidth + 125)
-		.attr("y", function(d, i) {return 80 + 55 * i})
-		.text(function(d) {
-
-			// show variable names starting from the third word
-			var words = d.split(" ")
-			words = words.splice(2)
-			return words.join(" ")
-		})
+		.attr("y", function(d, i) {return 60 + 55 * i})
+		.text(function(d) { return wrapText(d, 3)[1]})
 
 	// create a textbox for each xVariable that can be selected
 	scatterSvg.selectAll(".xCheckBox")
@@ -287,25 +274,35 @@ function createCheckBoxes(xVariables, yVariables, scatterSvg) {
 
 function createCountrySelector(scatterSvg, lijnData) {
 
-	scatterDiv = d3.select(".scatterDiv")
+	// dropdownDiv = d3.select("#countrySelectorDiv")
 
-	var countrySelector = scatterDiv.select(".countrySelector")
-		.on("change", onchangeSelector)
+	dropdownMenu = d3.select("#dropdownMenuCountry")
+
 
 	var options = Object.keys(lijnData)
-	// console.log(options)
-	options.sort()
-	console.log(options)
 
-	countrySelector.selectAll("option")
+	options.sort()
+
+	var countrySelectors = dropdownMenu.selectAll(".m")
 		.data(options)
-		.enter().append("option")
-			.text(function(d) {return d})
+		.enter().append("li")
+		.append("a")
+		.attr("class", "m")
+		.attr("value", function(d) {return d})
+		.text(function(d) {return d})
+		.on("click", onclickSelector)
+
+		// .on("change", onchangeSelector)
+
+	// countrySelector.selectAll("option")
+	// 	.data(options)
+	// 	.enter().append("option")
+	// 		.text(function(d) {return d})
 }
 
-function onchangeSelector() {
-	selectValue = d3.select('select').property('value')
-	currentCountry = selectValue
+function onclickSelector() {
+	// selectValue = d3.select('select').property('value')
+	currentCountry = this.getAttribute("value")
 	d3.selectAll(".dot").style("stroke", "none")
 	d3.select("#" + currentCountry).style("stroke", "black")
 	updateGraph(currentCountry)
@@ -321,14 +318,11 @@ function updateScatter(xVariable, yVariable, scatterSvg, currentYear) {
 		.domain(regionOptions)
 		.range(regionColorOptions)
 
-
-	console.log(regionColors("Europe"))
-
 	scatterTip = d3.tip()
 		.attr("class", "tip")
 		.offset([0,0])
 		.html(function(d, i) {
-			return "<p><strong>" + d.Country + "</strong></p><p><text>("
+			return "<p><h4>" + d.Country + "<h4></p><p><text>("
 				+ Math.round(d["xValue"] * 100) / 100 + "," + Math.round(d["yValue"] * 100) / 100
 				+ ") </text></p>" 
 		});
@@ -339,8 +333,8 @@ function updateScatter(xVariable, yVariable, scatterSvg, currentYear) {
 	var transition = scatterSvg.transition().duration(750), 
 		delay = function(d, i) {return i * 50};
 
-	newData2 = combineData2(sunburstData, lijnData, xVariable, yVariable, currentYear, geographics, oud)
-	console.log("Using", newData2)
+	newData2 = combineData2(sunburstData, lijnData, xVariable, yVariable, currentYear, geographics)
+	
 	domains = findDomain(newData2, xVariable, yVariable)
 	x.domain(domains[0])
 	y.domain(domains[1])
@@ -396,7 +390,6 @@ function updateScatter(xVariable, yVariable, scatterSvg, currentYear) {
 		.style("fill", function(d) { return regionColors(d.Region); })
 
 
-	console.log(currentCountry)
 
 	// Update X Axis
 	scatterSvg.select("#xscatter")
@@ -414,20 +407,16 @@ function updateScatter(xVariable, yVariable, scatterSvg, currentYear) {
 		.style("stroke", "none")
 		.attr("id", function(d) { return d.Country; })
 
-	console.log(currentCountry)
 	scatterSvg.select("#" + currentCountry)
 		.style("stroke", "black")
 }
 
-function combineData2(sunburstData, lijnData, xVariable, yVariable, year, geographics, oud) {
+function combineData2(sunburstData, lijnData, xVariable, yVariable, year, geographics) {
 
-	// console.log(geographics)
-	// console.log(sunburstData)
 	var newData2 = []
 	var ziektesGebruiken = sunburstData[year]
 	var counter = 0
 	var landen = Object.keys(sunburstData[year])
-	// console.log(landen)
 	var missendeData = []
 	var missingHygiene = []
 
@@ -446,7 +435,6 @@ function combineData2(sunburstData, lijnData, xVariable, yVariable, year, geogra
 			}
 		}
 		catch(err) {
-			// console.log("Disease", landen[i])
 			missendeData.push(landen[i])
 		}
 		

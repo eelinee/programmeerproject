@@ -13,7 +13,7 @@ body {
 	width: 840px;
 	height: 700px;
 	float: right;
-	background-color: lightgrey; 
+	background-color: whitesmoke; 
 }
 
 .graphDiv {
@@ -96,11 +96,37 @@ body {
 	position: relative;
 	top: 0%;
 	left: 0%;
+	text-align: center;
 }
 
 .selectContainer {
 	width: 50px;
 	height: 20px;
+}
+
+.tip {
+	line-height: 1;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.8);
+	fill-opacity: 0.4;
+	border-radius: 2px;
+	font-color: white;
+}
+
+.tip text {
+	color: whitesmoke;
+	position: relative;
+	top: 50%;
+}
+
+.tip h4 {
+	color: whitesmoke;
+}
+
+#dropdownMenuCountry {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
 }
 
 /*.slider {

@@ -32,11 +32,11 @@ function createVisualisation(error, sunburstData, lijnData, geographics) {
 		.style("width", width)
 
 	currentYear = "2014";
-	currentCountry = "Guatemala";
+	currentCountry = "Sweden";
 
 	createGraph(lijnData);
 
-	createScatter(sunburstData, lijnData, geographics, oud);
+	createScatter(sunburstData, lijnData, geographics);
 	
 	createSun(sunburstData, currentCountry);
 

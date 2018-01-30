@@ -39,8 +39,13 @@
 				<div class="slidecontainer">
   					<input type="range" min="2000" max="2015" value="2014" class="slider" id="myRange">
 				</div>
-				<div class = "selectContainer">
-					<select class = "countrySelector" data-live-search="true"></select>
+				<div class = "col-lg-12" id="countrySelectorDiv">
+					<button class = "btn btn-secondary dropdown-toggle" type = "button" data-toggle="dropdown"> Select a country<span class="caret"></span>
+					</button>
+					<ul class ="dropdown-menu scrollable-menu" role="menu" id="dropdownMenuCountry">
+						<!-- <li><a class="m" value="Netherlands" href="#">Netherlands</a></li>
+						<li><a class="m" value="Malta" href="#">Malta</a></li>
+					 --><ul> 
 				</div>
 			</div>
 			<div class = "graphDiv"></div>

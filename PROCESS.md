@@ -337,4 +337,94 @@ Dus dat moet ik nog snel gaan doen!
 
 ### Morgen
 
+Morgen ga ik beginnen met het maken van een timeslider en proberen het probleem 
+van de sunburst oplossen.
 
+# Dag 10
+
+### Wat heb ik gedaan?
+
+- Vandaag heb ik een timeslider gemaakt, dat was eigenlijk makkelijker dan 
+gedacht. Dat kwam denk ik omdat ik heel makkelijk de updatefuncties die ik al 
+had ook weer gewoon aan kon roepen met de timeslider, maar dan als argument een 
+ander jaar mee te geven in plaats van een ander land. 
+- Het is ook gelukt om het probleem van de sunburst op te lossen! Dat is fijn. 
+Het kwam door de asynchroniteit van javascript tijdens het updaten: ik 
+was al dingen aan het toevoegen terwijl ik intussen ook nog wat verwijderde dus 
+daardoor klopten sommige dingen niet meer.
+- Ik heb een legenda gemaakt voor bij mijn sunburst, die update wanneer je een 
+ander land, een ander jaar of een andere categorie (zoom) aanklikt.
+
+### Moeilijkheden
+
+Ik loop eigenlijk nergens tegen aan op het moment! Ik ben heel blij dat het 
+probleem met de sunburst is opgelost.
+
+### Belangrijke beslissingen 
+
+- Ik heb besloten om bij mijn sunburst in de legenda alleen de eerste 10 
+categorieën te laten zien. Dit heb ik gedaan omdat de namen van de categorieën 
+nogal lang zijn en de legenda anders erg klein wordt. Verder zijn de eerste 10 
+categorieën ook de grootste categorieën, dus het meest interessant. De rest van 
+de categorieën zijn meestal erg klein. De tooltip is wel aanwezig voor alle 
+categorieën, dus er is nog steeds informatie aanwezig voor de gebruiker. 
+
+### Maandag
+
+- Maandag ga ik een dropdown menu maken om een land te kiezen, want nu kun je 
+de landen alleen kiezen vanuit de scatterplot en je alleen zoeken op 
+werelddeel (kleur geeft werelddeel aan) en met een dropdown kun je ook op naam 
+zoeken. Ik wil ook met zo'n zoekbalkje doen als dat lukt.
+- Ook wil ik kleurenfuncties gaan maken voor mijn sunburst, zodat elke categorie 
+verschillende tinten van dezelfde kleur laat zien. Nu zitten alle kleuren door 
+elkaar en dat vind ik storend en onduidelijk. 
+- Ik moet ook een legenda gaan maken van de werelddelen bij de scatterplot. 
+
+# Dag 11
+
+### Wat heb ik gedaan?
+
+- Ik heb een dropdown menu gemaakt om een land te kiezen, maar het is me niet 
+gelukt om een zoekbalkje toe te voegen. Daarom heb ik de landen op alfabetische 
+volgorde gezet, dan is dat zoekbalkje niet meer nodig.
+- Ik ben ook bezig geweest met het beter indelen van mijn pagina, ik heb 
+bijvoorbeeld een titel toegevoegd die steeds aangeeft welk land en welk jaar 
+er is geselecteerd en die het ook aangeeft als er geen data beschikbaar is 
+voor de geselecteerde combinatie.
+- Van de data over doodsoorzaken had ik tot vandaag alleen maar de jaren 2000 
+tm 2005 toegevoegd. Vandaag heb ik ook de jaren 2006 tm 2015 toegevoegd.
+
+### Moeilijkheden
+
+Ik merk dat ik nog een beetje moet wennen aan dingen als bootstrap en alle svg's 
+en het indelen van de pagina enzo. Ik had vanaf het begin al drie svg's voor 
+mijn drie visualisaties, maar nu ik weer dingen wil veranderen is het wel erg 
+veel gedoe. Goed om even te bedenken dat hier nog wel veel tijd in zal gaan 
+zitten en dat ik er dus genoeg tijd voor moet uittrekken.
+
+### Morgen
+
+- De kleurenfunctie van de sunburst moet ik morgen gaan maken, want daar ben ik 
+vandaag helaas niet aan toegekomen. 
+- Ook zal ik dan gaan kijken naar mijn stijl 
+en alvast de eerste keer door mijn script lopen om dingen aan te passen.
+
+# Dag 12
+
+### Wat heb ik gedaan?
+
+- De kleurenfuncties van de sunburst zijn af! Ik vind het best mooi geworden. 
+De kleuren passen nu ook wat beter bij elkaar. Ik heb nu ook de legenda 
+interactief gemaakt met de sunburst (als je over een categorie heen gaat licht 
+die hele categorie in de sunburst helemaal op etc) 
+- Ik heb mooiere tooltips toegevoegd in de scatterplot en de sunburst, ik had 
+al een soort tooltips maar die waren alleen voor tijdelijk. 
+
+### Morgen
+
+- Morgen ga ik als eerste kijken naar mijn stijl. Ik merk dat ik heel graag 
+nog allemaal leuke dingen wil doen zoals die BMI toevoegen en extra andere 
+functies toevoegen, maar die stijl is natuurlijk nu even belangrijker dus daar 
+ga ik morgen naar kijken. En dat houdt vooral heel erg in dingen weggooien die 
+ik niet meer gebruik (oude bestanden en functies) en de data, javascript files, 
+css files, html files en data processing files in verschillende mappen opdelen! 

@@ -27,26 +27,11 @@ function createTitle() {
 
 function updateTitle(availability) {
 	if(availability == "available") {
-		// var g = svg.select("#titleG")
-
-		// console.log(g)
 
 
 		title = d3.select(".titleDiv")
 			.select(".titleVis").text(currentCountry + ", " + currentYear)
 			.style("font-size", "50px")
-
-		// title.append("text")
-		// 	.attr("class", "titleVis")
-		// 	.text(currentCountry + ", " + currentYear)
-
-		console.log("HALLO")
-
-		// svg.append("text")
-		// 	.attr("class", "titleVis")
-		// 	// .attr("x", 20)
-		// 	// .attr("y", 20)
-		// 	.text(currentCountry + ", " + currentYear)
 	}
 
 	else {
