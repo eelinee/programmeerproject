@@ -141,6 +141,8 @@ function createSunColors(data) {
 */
 function clickSun(d) {
 
+	console.log("CLICK", d)
+
 	sunSvg.transition()
 		.duration(750)
 		.tween("scale", function() {
@@ -276,6 +278,10 @@ function updateSunburst(currentCountry, currentYear) {
 			});
 		updateLegendaSun(sunData);
 	};
+
+	if(sunData) {
+		clickSun(sunData)
+	}
 };
 
 /*

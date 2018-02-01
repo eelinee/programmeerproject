@@ -12,7 +12,7 @@ Studentnumber: 10811834
 
 Course: Programming Project (dataprocessing)
 
-Copyright: MIT
+Copyright: The MIT licence
 
 Goal of this project: creating awareness of the importance of hygiene for health.
 
@@ -66,14 +66,6 @@ To understand where the big differences in life expectancy and disease incidence
 
 - Hygiene data: http://apps.who.int/gho/data/node.main.WATERSANITATION166?lang=en
 - Communicable and noncommunicable diseases: http://apps.who.int/gho/data/node.home
-
-**Transforming data**
-
-The hygiene data does not need transformation, since all components are shown in '% of the population that *has acces to / uses / practices* ....'
-
-The disease data needs to be transformed. All components are shown in 'number of deaths of a certain disease'. I want the data to show death rate, the part of the population that dies of a certain disease, and I will realize that with the following equasion:
-
-death rate = number of deaths / population number
 
 **External components**
 
@@ -160,7 +152,7 @@ externally maintained libraries used by this software which have their
 own licenses; we recommend you read them, as their terms may differ from
 the terms above.
 
-**bootstrap library**
+**Bootstrap library**
 
 The MIT License
 

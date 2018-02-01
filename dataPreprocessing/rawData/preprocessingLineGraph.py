@@ -57,8 +57,7 @@ for i in range(0, 4):
 				# calculate % "that does not practice" instead of "that does"
 				if(i == 2):
 					data[row["Country"]][i]["Values"][len(data[row["Country"]]
-						[i]["Values"]) - 1]["Value"] = 
-						str(int(100 - float(row[str(j)])))
+						[i]["Values"]) - 1]["Value"] = str(int(100 - float(row[str(j)])))
 				
 				else:
 					data[row["Country"]][i]["Values"][len(data[row["Country"]]

@@ -17,6 +17,12 @@ body {
 	height: 100%;
 }
 
+.marginTop {
+	width: 1500px;
+	height: 20px;
+	background-color: steelblue;
+}
+
 .scatterDiv {
 	width: 840px;
 	height: 700px;

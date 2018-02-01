@@ -428,3 +428,18 @@ functies toevoegen, maar die stijl is natuurlijk nu even belangrijker dus daar
 ga ik morgen naar kijken. En dat houdt vooral heel erg in dingen weggooien die 
 ik niet meer gebruik (oude bestanden en functies) en de data, javascript files, 
 css files, html files en data processing files in verschillende mappen opdelen! 
+
+# Dag 13
+
+### Wat heb ik gedaan??
+
+Al mijn files gecommment en op style gelet. Dat heeft de hele dag gekost.
+
+### Morgen
+
+Laatste bugs fixen en report afmaken!
+
+# Dag 14
+
+- Ik ben klaar!!! Alle bugs zijn gefixt en het report is af!
+- Het was erg leuk :)

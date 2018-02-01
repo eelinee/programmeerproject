@@ -75,70 +75,6 @@ function createGraph(hygieneData) {
 
 }
 
-/*
-*This function updates the line graph to show data of the new country. This 
-* function is called from 'createScatter.js', when a new country is clicked 
-* in the dropdown menu or in the scatterplot 
-* Input arguments
-*	- clickedCountry: the country to show data of
-*/
-function updateGraph(clickedCountry) {
-	currentDataGraph = dataGraph[clickedCountry]
-
-	// remove missing data from current data list
-	for(var i = 0; i < currentDataGraph.length; i ++) {
-		if(!currentDataGraph[i]["Values"]) {
-			currentDataGraph.splice(i, 1);
-		}
-	}
-
-	// determine minimal y-value
-	yNewMinGraph = ([
-		d3.min(currentDataGraph, function(c) { 
-			return d3.min(c.Values, function(d) { 
-				console.log(d.Value)
-				return d.Value; 
-			}); 
-		})
-	]);
-
-	console.log("FINAL MIN", yNewMinGraph)
-
-	// if minimum y-value is outside standard domain, adjust domain
-	if(yNewMinGraph < 60) {
-		yGraph.domain([100, 0])
-	}
-	else {
-		yGraph.domain([100, 60])
-	}
-
-	// update y-axis
-	graphSvg.select("#ygraph")
-			.transition().duration(500)
-			.call(graphAxes[1]);
-
-	var lines = graphSvg.selectAll(".line")
-		.data(currentDataGraph)
-
-	// remove unnessecary lines
-	lines.exit().remove()
-
-	// add new lines if needed
-	lines.enter().append("path")
-		.attr("class", "line")
-		.style("stroke", function(d) {return colorsGraph(d.Id)})
-
-	// update all lines with new data
-	lines.transition()
-		.duration(1000)
-		.delay(function(d, i) {return i * 50})
-		.attr("d", function(d) {return newLine(d.Values)} )
-
-	// update interactive element with new data
-	handleMouseMove([xGraph(currentYear), 0], mouseG)
-
-	
-}
 
 /*
 * This function creates a legenda for the line graph and is called from the 
@@ -264,6 +200,66 @@ function createInteractivityGraph(graphSvg, currentDataGraph, graphWidth, graphH
 			// call function that places all mouse elements in position
 			handleMouseMove(d3.mouse(this), mouseG);
 		});
+};
+
+/*
+*This function updates the line graph to show data of the new country. This 
+* function is called from 'createScatter.js', when a new country is clicked 
+* in the dropdown menu or in the scatterplot 
+* Input arguments
+*	- clickedCountry: the country to show data of
+*/
+function updateGraph(clickedCountry) {
+	currentDataGraph = dataGraph[clickedCountry];
+
+	// remove missing data from current data list
+	for(var i = 0; i < currentDataGraph.length; i ++) {
+		if(!currentDataGraph[i]["Values"]) {
+			currentDataGraph.splice(i, 1);
+		};
+	};
+
+	// determine minimal y-value
+	yNewMinGraph = ([
+		d3.min(currentDataGraph, function(c) { 
+			return d3.min(c.Values, function(d) {
+				return d.Value; 
+			}); 
+		})
+	]);
+
+	// if minimum y-value is outside standard domain, adjust domain
+	if(yNewMinGraph < 60) {
+		yGraph.domain([100, 0]);
+	}
+	else {
+		yGraph.domain([100, 60]);
+	};
+
+	// update y-axis
+	graphSvg.select("#ygraph")
+			.transition().duration(500)
+			.call(graphAxes[1]);
+
+	var lines = graphSvg.selectAll(".line")
+		.data(currentDataGraph);
+
+	// remove unnessecary lines
+	lines.exit().remove();
+
+	// add new lines if needed
+	lines.enter().append("path")
+		.attr("class", "line")
+		.style("stroke", function(d) { return colorsGraph(d.Id); });
+
+	// update all lines with new data
+	lines.transition()
+		.duration(1000)
+		.delay(function(d, i) { return i * 50; })
+		.attr("d", function(d) { return newLine(d.Values); });
+
+	// update interactive element with new data
+	handleMouseMove([xGraph(currentYear), 0], mouseG);
 };
 
 /*
