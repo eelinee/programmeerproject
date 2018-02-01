@@ -62,15 +62,6 @@ for i in range(0, 4):
 				dataRow[i]["Id"] = names[i]
 				dataRow[i]["Values"] = []
 
-		# if(j == 2000):
-		# 	data[row["Country"]][i] = {"Variable" : names[i], "Values" : }
-
-		# 	data[row["Country"]][i]["Values"]
-		# 	data[row["Country"]][names[i]]["Year"] = str(j)
-		# 	data[row["Country"]][names[i]]["Value"] = row[str(j)]
-
-# MISSCHIEN IS HET NU GOED ZOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-# print(data)
 
 # store data in a jsonfile
 json.dump(data, jsonfile)

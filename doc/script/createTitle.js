@@ -3,8 +3,7 @@
 
 function createTitle() {
 	
-	titleWidth = width * 0.44;
-	titleHeight = 70;
+	
 
 	// titleSvg = d3.select(".titleDiv")
 	// 	.append("svg")
@@ -18,14 +17,16 @@ function createTitle() {
 
 	// console.log("HIERO", titleSvg.select("#titleG"))
 
+	
+}
+
+function updateTitle(availability) {
+	titleWidth = width * 0.44;
+	titleHeight = 70;
 	title = d3.select(".titleDiv")
 		.append("text")
 		.attr("class", "titleVis")
 
-	updateTitle("available")
-}
-
-function updateTitle(availability) {
 	if(availability == "available") {
 
 
@@ -38,5 +39,6 @@ function updateTitle(availability) {
 		title = d3.select(".titleDiv")
 			.select(".titleVis").text("No disease data available for " + currentCountry + " in " + currentYear)
 			.style("font-size", "20px")
+		console.log("HIERZO!!")
 	}
 }

@@ -26,16 +26,24 @@ for j in range(len(csvfiles)):
 			for i in range(0,19):
 				data[years[j]][row["Countries"]]["children"].append({})
 				data[years[j]][row["Countries"]]["children"][i]["name"] = diseases[i + 1]
-				data[years[j]][row["Countries"]]["children"][i]["children"] = []
+				if i == 5 or i == 6 or i == 7 or i == 11 or i == 12 or i == 15 or i == 16 or i == 17:
+					if row[diseases[i + 1]] != "" and row[diseases[i + 1]] != " ":
+						data[years[j]][row["Countries"]]["children"][i]["size"] = int(row[diseases[i + 1]])
+					else:
+						data[years[j]][row["Countries"]]["children"][i]["size"] = 0
+					if j == 0: 
+						print(diseases[i + 1])
+				else:
+					data[years[j]][row["Countries"]]["children"][i]["children"] = []
 				data[years[j]][row["Countries"]]["children"][i]["collectiveName"] = diseases[i + 1]
 			for i in range(21,33):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":
 					data[years[j]][row["Countries"]]["children"][0]["children"].append({"name": diseases[i], "size": int(row[diseases[i]]), "collectiveName" : diseases[1]})
 			for i in range(33, 51):
-				if row[diseases[i]] != "" and row[diseases[i]] != " ":
+				if row[diseases[i]] != "" and row[diseases[i]] != " " and diseases[i] != "Total of malignant neoplams":
 					data[years[j]][row["Countries"]]["children"][1]["children"].append({"name": diseases[i], "size": int(row[diseases[i]]), "collectiveName" : diseases[2]})
 			for i in range(51, 52):
-				if row[diseases[i]] != "" and row[diseases[i]] != " ":
+				if row[diseases[i]] != "" and row[diseases[i]] != " " :
 					data[years[j]][row["Countries"]]["children"][2]["children"].append({"name": diseases[i], "size": int(row[diseases[i]]), "collectiveName" : diseases[3]})
 			for i in range(52, 54):
 				if row[diseases[i]] != "" and row[diseases[i]] != " ":

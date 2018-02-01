@@ -31,14 +31,14 @@ function createVisualisation(error, sunburstData, lijnData, geographics) {
 	d3.select(".parentDiv")
 		.style("width", width)
 
-	currentYear = "2014";
-	currentCountry = "Sweden";
+	currentYear = "2005";
+	currentCountry = "Egypt";
 
 	createGraph(lijnData);
 
 	createScatter(sunburstData, lijnData, geographics);
 	
-	createSun(sunburstData, currentCountry);
+	createSun(sunburstData);
 
 	createTitle(currentYear, currentCountry, true);
 
