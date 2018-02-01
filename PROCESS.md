@@ -1,7 +1,7 @@
 # Dag 1
 
 **Figuur 1. Mijn pagina ziet er nu zo uit:**
-![](images/day1.png)
+![](doc/day1.png)
 
 ###Belangrijke beslissingen
 
@@ -33,7 +33,7 @@ opzetten van mijn scatterplot.
 # Dag 2
 
 **Figuur 2. Mijn pagina ziet er nu zo uit:**
-![](images/day2.png)
+![](doc/day2.png)
 
 ### Belangrijke beslissingen
 - Ik heb een beslissing gemaakt over wat ik doe met de missende data in mijn 
@@ -54,12 +54,12 @@ lijngrafiek.
 **Figuur 3. Missende data optie 1: in deze grafiek mist data voor 'With 
 handwashing facilities at home' in de jaren 2000 tm 2004.**
 
-![](images/missendeDataLineGraphOptie1.png)
+![](doc/missendeDataLineGraphOptie1.png)
 
 **Figuur 4. Missende data optie 2: in deze grafiek mist data voor 'With 
 handwashing facilities at home' in de jaren 2000 tm 2004.**
 
-![](images/missendeDataLineGraphOptie2.png)
+![](doc/missendeDataLineGraphOptie2.png)
 
 - Ook heb ik een beslissing gemaakt over het domein van de y-as van mijn 
 grafiek. De opties zijn als volgt:
@@ -79,12 +79,12 @@ grafiek. De opties zijn als volgt:
 **Figuur 5. Domein optie 1: data van Algerije (boven) vergeleken met Angola 
 (onder)**
 
-![](images/domeinLineGraphOptie1.png)
+![](doc/domeinLineGraphOptie1.png)
 
 **Figuur 6. Domein optie 2: data van Algerije (boven) vergeleken met Angola 
 (onder)**
 
-![](images/domeinLineGraphOptie2.png)
+![](doc/domeinLineGraphOptie2.png)
 
 ### Moeilijkheden
 
@@ -101,7 +101,7 @@ Morgen ga ik als eerste beginnen met het maken van de scatterplot.
 
 **Figuur 3.1. Mijn pagina ziet er nu zo uit:**
 
-![](images/day3.png)
+![](doc/day3.png)
 
 ### Belangrijke beslissingen
 
@@ -131,7 +131,7 @@ tijd en moeite gaat kosten.
 # Dag 5
 
 **Figuur 4.1. Mijn pagina ziet er nu zo uit:**
-![](images/day4.png)
+![](doc/day4.png)
 
 ### Interactiviteit vooruitgang
 
@@ -233,7 +233,7 @@ Morgen ga ik:
 
 **Figuur 7.1. Mijn pagina ziet er nu zou uit:**
 
-![](images/day7.png)
+![](doc/day7.png)
 
 ### Wat heb ik gedaan?
 
@@ -284,7 +284,7 @@ aan toegekomen vandaag)
 
 **Figuur 8.1: Zo ziet mijn pagina er nu uit:**
 
-![](images/day8.png)
+![](doc/day8.png)
 
 ### Wat heb ik gedaan?
 
@@ -309,7 +309,7 @@ plan was maar het kwam er steeds niet van).
 
 **Figuur 9.1: Zo ziet mijn pagina er nu uit:**
 
-![](images/day9.png)
+![](doc/day9.png)
 
 ### Wat heb ik gedaan?
 

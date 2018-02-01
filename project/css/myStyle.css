@@ -1,0 +1,156 @@
+/*Name: Eline Rietdijk
+Project: programmeerproject minor programmeren
+Studentnumber: 10811834
+
+"myStyle.css"
+This file contains the style attributes for the html file "index.html".
+*/
+
+body {
+	background-color: steelblue;
+}
+
+.parentDiv {
+	width: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+}
+
+.scatterDiv {
+	width: 840px;
+	height: 700px;
+	float: right;
+	background-color: whitesmoke; 
+}
+
+.graphDiv {
+	width: 660px;
+	height: 280px;
+	float: left;
+	background-color: whitesmoke;
+}
+
+.titleDiv {
+	width: 660px;
+	height: 70px;
+	float: left;
+	background-color: whitesmoke;
+}
+
+.sunDiv {
+	width: 660px;
+	height: 350px;
+	float: left;
+	background-color: whitesmoke;
+}
+
+.axis path,
+
+.axis line {
+	fill: none;
+	stroke: #000;
+	stroke-width: 1px;
+	shape-rendering: crispEdges;
+}
+
+.axisText {
+	font-size: 15px;
+	font-weight: bold;
+	text-anchor: end;
+}
+
+.imageDiv {
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.imageDiv:hover {
+	opacity: 0.8;
+	}
+
+.tick {
+	font-size: 13px;
+}
+
+.graphLine {
+	fill: none;
+	stroke-width: 2px;
+}
+
+.yCheckText {
+	font-size: 13px;
+	text-anchor: middle;
+}
+
+.sunPath {
+    stroke: #fff;
+  }
+
+.line {
+	fill: none;
+	stroke-width: 2px;
+}
+
+.titleAvailable {
+	top: 0%;
+}
+
+
+
+.selectContainer {
+	width: 50px;
+	height: 20px;
+}
+
+.tip {
+	line-height: 1;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.8);
+	fill-opacity: 0.4;
+	border-radius: 2px;
+	font-color: white;
+}
+
+.tip text {
+	color: whitesmoke;
+	position: relative;
+	top: 50%;
+}
+
+.tip h4 {
+	color: whitesmoke;
+}
+
+#dropdownMenuCountry {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.timeSliderContainer {
+	width: 60%;
+	float: left;
+}
+
+.sliderInfoContainer {
+	width: 50%;
+	float: left;
+}
+
+.slidercontainer {
+	width: 40%;
+	float: right;
+}
+
+#countrySelectorDiv {
+	width: 40%;
+	float: right;
+}
+
+.titleDiv {
+	text-align: center;
+}

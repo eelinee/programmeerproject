@@ -1,0 +1,77 @@
+<!-- Name: Eline Rietdijk
+Project: programmeerproject minor programmeren
+Studentnumber: 10811834
+
+"index.html" 
+This file contains html attributes and loads all files to create the website 
+of my project. -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<link rel="shortcut icon" href="">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/
+			bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/
+			jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/
+			bootstrap.min.js"></script>
+
+		<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0
+			.6.3.js"></script>
+		<script src = "../javascript/helpers.js"></script>
+		<script src = "../javascript/createLineGraph.js"></script>
+		<script src = "../javascript/createScatterPlot.js"></script>
+		<script src = "../javascript/createSunBurst.js"></script>
+		<script src = "../javascript/project.js"></script>
+		<script src = "https://d3js.org/d3-queue.v3.min.js"></script>
+		<link rel = "stylesheet" type="text/css" href="../css/myStyle.css">
+	</head>
+	<body>
+		<nav class = "navbar navbar-default">
+			<div class="container-fluid">
+				<ul class = "nav navbar-nav">
+					<li><a href = "homepage.html">About</a></li>
+					<li><a href = "index.html">Visualisation</a></li>
+					<!-- <li><a href = "dataSource.html">Bronnen</a></li> -->
+				</ul>
+			</div>
+		</nav>
+		<div class = "parentDiv">
+			<div class = "scatterDiv">
+				<div class="timeSliderContainer">
+					<div class="sliderInfoContainer"> 
+						Slide though the years <b>2000 - 2015</b>
+					</div>
+					<div class="slidecontainer">
+	  					<input type="range" min="2000" max="2015" value="2005" 
+	  					class="slider" id="myRange">
+	  				</div>
+				</div>
+				<div class = "col-lg-12" id="countrySelectorDiv">
+					<button class = "btn btn-secondary dropdown-toggle" 
+					type = "button" data-toggle="dropdown"> Select a country
+					<span class="caret"></span>
+					</button>
+					<ul class ="dropdown-menu scrollable-menu" role="menu"
+					id="dropdownMenuCountry"></ul> 
+					<button type="button" class="btn btn-default btn-sm"
+					id="question_search" data-toggle="popover" 
+					data-placement="bottom" data-content="Select a 
+					country: Using the dropdown menu, you can select a 
+					country to show data of." 
+					aria-describedby="tooltip"><span class="glyphicon 
+					glyphicon-question-sign"></span>Explanation</button>
+				</div>
+			</div>
+			<div class = "titleDiv"></div>
+			<div class = "graphDiv"></div>
+			<div class = "sunDiv"></div>
+	</body>
+</html>
