@@ -312,7 +312,7 @@ function createCountrySelector(scatterSvg, hygieneData) {
 * dropdown menu.
 */
 function onclickSelector() {
-	console.log(this.getAttribute("value"))
+	
 	currentCountry = this.getAttribute("value");
 
 	// show black stroke of the dot that represents current country
